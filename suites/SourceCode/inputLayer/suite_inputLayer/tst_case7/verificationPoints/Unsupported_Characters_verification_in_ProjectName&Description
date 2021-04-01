@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="messageBoxDisplay_Characters_Not_Supported_Label" property="text" type="char" valueType="Value"><![CDATA[& * | ; : < > / " ? , '  Characters Not Supported!]]>
+<base64EncodedValue>JiAqIHwgOyA6IDwgPiAvICIgPyAsICcgIENoYXJhY3RlcnMgTm90IFN1cHBvcnRlZCE=</base64EncodedValue>
+</Verification>
+</VerificationPoint>

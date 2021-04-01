@@ -1,0 +1,8 @@
+<top1>
+    <!--Generated for PyMOTW-->
+    <child>This child contains text.
+        <grandchild>this is a grand child</grandchild>
+    </child>
+    <child_with_tail>This child has regular text.</child_with_tail>And "tail" text.
+    <child_with_entity_ref>This &amp; that</child_with_entity_ref>
+</top1>

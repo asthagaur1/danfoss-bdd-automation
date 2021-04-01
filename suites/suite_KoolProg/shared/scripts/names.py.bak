@@ -1,0 +1,516 @@
+# encoding: UTF-8
+ 
+from objectmaphelper import *
+ 
+###########################################################################################################################
+######## ############## H O M E W I N D O W ###############################################################################################
+###########################################################################################################################
+ 
+############### HOME PAGE #################################################################################################
+homepage_Window = {"id": "windowhomepage", "type": "Window"} # koolProg_Window
+############### HOME PAGE #################################################################################################
+ 
+############### KOOLPROG label #################################################################################################
+homepage_koolprogtxt_Label = {"container": homepage_Window, "id": "txtkoolprog", "type": "Label"}
+############### KOOLPROG label #################################################################################################
+ 
+############### HOME PAGE KOOLPROG LOGO #################################################################################################
+homepage_danfosslogo_Image = {"container": homepage_Window, "id": "Imgdanfossimage", "type": "Image"}
+############### HOME PAGE KOOLPROG LOGO #################################################################################################
+ 
+############### HOME PAGE HELP BUTTON####################################################################################
+homepage_mnuHelp_window = {"container": homepage_Window, "id": "mnuHelpMenu", "type": "MenuBar"}
+homepage_menuHelp_button = {"container": homepage_mnuHelp_window, "id": "mnuHelp", "type": "MenuItem"}
+############### HOME PAGE HELP BUTTON####################################################################################
+ 
+################# HOME PAGE PREFERNCE BUTTON ########################################################################################################
+homepage_btnSettings_Button = {"container": homepage_Window, "id": "btnSettings", "name": "btnSettings", "type": "Button"}#koolProg_btnSettings_Button
+################## HOME PAGE PREFERNCE BUTTON ######################################################################################################
+ 
+###################HOME PAGE USER LABEL##################################################################################################################################
+homepage_Userlogo_Label = {"container": homepage_Window, "id": "lblUser", "type": "Label"}
+###################HOME PAGE USER LABEL###################################################################################################################################
+ 
+ 
+####################KOOLPROG VERSION LABEL#################################################################################################################################
+homepage_KPVersion_label = {"container": homepage_Window, "id": "lblVersion", "type": "Label"}#koolProg_version_label
+####################KOOLPROG VERSION LABEL##################################################################################################################################
+ 
+ 
+####################KOOLPROG DANFOSS LINK LABEL#################################################################################################################################
+homepage_danfosslink_Label = {"container": homepage_Window, "id": "lbllink", "type": "Label"}
+####################KOOLPROG DANFOSS LINK##################################################################################################################################
+ 
+#####################SET PARAMETER BUTTON SYMBOLIC NAMES ################################################################################################################################
+homepage_imgSetParams_Image = {"container": homepage_Window, "id": "imgSetParams", "type": "Image"}
+homepage_imgSetParams_Button = {"container": homepage_Window, "id": "btnSetparameters", "type": "Button"}
+#####################SET PARAMETER BUTTON SYMBOLIC NAMES #################################################################################################################################
+ 
+######################COPY TO CONTROLLER SYMBOLIC NAMES ###############################################################################################################################
+homepage_Copycontroller_Image = {"container": homepage_Window, "id": "imgCopycontroller", "type": "Image"}#koolProg_btnCopytocontroller_Button
+homepage_Copytocontroller_Button = {"container": homepage_Window, "id": "btnCopytocontroller", "type": "Button"}
+######################COPY TO CONTROLLER SYMBOLIC NAMES  ################################################################################################################################
+ 
+###################### ON-LINE SERVICE SYMBOLIC NAMES ###############################################################################################################################
+homepage_Servicetest_Image = {"container": homepage_Window, "id": "imgServicetest", "type": "Image"}#homepage_Servicetest_Button
+homepage_Servicetest_Button = {"container": homepage_Window, "id": "btnServiceTest", "type": "Button"}
+###################### ON-LINE SERVICE SYMBOLIC NAMES ##############################################################################################################################
+
+###########################################################################################################################
+###################### HOMEWINDOW ENDS ###############################################################################################
+###########################################################################################################################
+ 
+ 
+##########################################################################################################################################
+###################### SET PARAMTER  WINDOW ###############################################################################################
+##########################################################################################################################################
+setparameter_Window = {"id": "windowsetparameter", "type": "Window"}
+
+###########################PROJECT WINDOW KOOLPROG POP-UP SYMBOLIC NAMES################################### 
+
+
+################## SET PARAMETER TITLE LABLE ###################################################################################################################################
+setparameter_window_Title_Label = {"container": setparameter_Window, "id": "lblTitle", "type": "Label"}#setParameter_lblTitle_Label
+################## SET PARAMETER TITLE LABLE ####################################################################################################################################
+ 
+################### SET PARAMETER WINDOW CANCEL BUTTON ##################################################################################################################################
+setparameter_window_Close_Button = {"container": setparameter_Window, "id": "btnClose", "type": "Button"}
+#################### SET PARAMETER WINDOW CANCEL BUTTON ##################################################################################################################################
+ 
+#################### SET PARAMETER WINDOW  OPEN RECENT FILE #################################################################################################################################
+setparameter_window_recentProject_Label = {"container": setparameter_Window, "id": "lblrecentProject", "type": "Label"} #setParameter_lblrecentProject_Label
+#################### SET PARAMETER WINDOW  OPEN RECENT FILE #################################################################################################################################
+ 
+#################### SET PARAMETER WINDOW NEW ################################################################################################################################
+setparameter_window_boxItems_List = {"container": setparameter_Window, "id": "lstboxItems", "type": "List"}
+boxItems_List_Item = {"container": setparameter_window_boxItems_List, "id": "", "type": "ListItem"}
+setparameter_window_New_Label = {"container": boxItems_List_Item, "id": "lblProject", "type": "Label"}#setParameter_lblCreatenew_Label
+#################### SET PARAMETER WINDOW NEW #################################################################################################################################
+ 
+##################### SET PARAMETER WINDOW IMPPORT SETTING FROM CONTROLLER ################################################################################################################################
+lstboxItems_ListItem_2 = {"container": setparameter_window_boxItems_List, "id": "", "occurrence": 2, "type": "ListItem"}
+setparameter_window_Uplaodfromcontroller_Label = {"container": lstboxItems_ListItem_2, "id": "lblUplaodcontroller", "type": "Label"}#lstBoxImportSetting_lblUplaodcontroller_Label
+###################### SET PARAMETER WINDOW IMPPORT SETTING FROM CONTROLLER ################################################################################################################################
+ 
+ 
+###################### SET PARAMETER WINDOW OPEN ##############################################################################################################################
+lstboxItems_ListItem_3 = {"container": setparameter_window_boxItems_List, "id": "", "occurrence": 3, "type": "ListItem"}
+# ################## SET PARAMETER O P E  N B U T T O N ######################
+setparameter_window_Openproject_Label = {"container": lstboxItems_ListItem_3, "id": "lblOpenproject", "type": "Label"}
+###################### SET PARAMETER WINDOW OPEN ###############################################################################################################################
+ 
+ 
+####################### SET PARAMETER WINDOW CONTROLLER MODEL ##############################################################################################################################
+setparameter_window_controllersmodels_Label = {"container": setparameter_Window, "id": "lblCdf", "type": "Label"}
+####################### SET PARAMETER WINDOW CONTROLLER MODEL ##############################################################################################################################
+ 
+######################### SET PARAMETER WINDOW IMPORT CDF MODEL ############################################################################################################################
+windowsetparameter_lstboxCDFItems_List = {"container": setparameter_Window, "id": "lstboxCDFItems", "type": "List"}
+lstboxCDFItems_ListItem_2 = {"container": windowsetparameter_lstboxCDFItems_List, "id": "", "type": "ListItem"}#lstboxItems_lstBoxImportSetting_ListItem
+setparameter_window_importcdf_Label = {"container": lstboxCDFItems_ListItem_2, "id": "lblCDF", "type": "Label"}#setParameter_lblCdf_Label
+########################### SET PARAMETER WINDOW IMPORT CDF MODEL  ###########################################################################################################################
+ 
+ 
+############################ SET PARAMETER WINDOW CANCEL BUTTON #########################################################################################################################
+setparameter_window_Close_Button = {"container": setparameter_Window, "id": "btnClose", "type": "Button"}
+############################## SET PARAMETER WINDOW CANCEL BUTTON ########################################################################################################################
+ 
+##########################################################################################################################################
+###################### SET PARAMTER  WINDOW ENDS ###############################################################################################
+########################################################################################################################################## 
+ 
+ 
+###########################################################################################################################
+###################### NEW PROJECT WINDOW ###############################################################################################
+###########################################################################################################################
+ 
+ 
+#newproject_Window = {"id": "windowNewProject", "type": "Window"}
+newproject_Window = {"text": "Newproject", "type": "Window"}
+###################### NEW PROJECT WINDOW NEW PROJECT LABEL###############################################################################################################################
+newproject_Window_Title_Label = {"container": newproject_Window, "id": "lblTitle", "type": "Label"}
+###################### NEW PROJECT WINDOW NEW PROJECT LABEL ################################################################################################################################
+ 
+###################### NEW PROJECT WINDOW CLOSE BUTTON ###############################################################################################################################
+newproject_Window_Close_Button = {"container": newproject_Window, "id": "btnClose", "type": "Button"}
+####################### NEW PROJECT WINDOW CLOSE BUTTON ####################################################################################################################################################################################################################################################################################
+ 
+##################### NEW PROJECT WINDOW SELECT CONTROLLER VARIANT ######################################################################################################################################################################################################################################################################################
+newproject_Window_select_controllervarient_Label = {"container": newproject_Window, "id": "txtselect", "type": "Label"}
+##################### NEW PROJECT WINDOW SELECT CONTROLLER VARIANT #####################################################################################################################################################################################################################################################################################
+ 
+###################### NEW PROJECT WINDOW PRODUCT DATADRID #####################################################################################################################################################################################################################################################################################
+#tabController_TabItem = {"container": newproject_Window, "id": "tabNewproject", "type": "TabItem"}
+#newproject_Window__Products_datagrid = {"container": tabController_TabItem, "id": "datagridProducts", "type": "Table"}#newProject_tabNewproject_TabFolder
+#newproject_TabFolder = {"container": newproject_Window, "type": "TabFolder"}
+#newproject_TabFolder = {"container": newproject_Window, "type": "TabFolder"}
+newProject_tabNewproject_TabFolder = {"container": newproject_Window, "id": "tabNewproject", "type": "TabFolder"}
+ 
+###################### NEW PROJECT WINDOW PRODUCT DATADRID #####################################################################################################################################################################################################################################################################################
+ 
+###################### NEW PROJECT WINDOW IMAGE LABEL#####################################################################################################################################################################################################################################################################################
+newproject_Window_controller_Image = {"container": newproject_Window, "id": "imgProductImageTemplateA", "type": "Image"}#newProject_imgProduct_Image
+####################### NEW PROJECT WINDOW IMAGE LABEL ####################################################################################################################################################################################################################################################################################
+ 
+######################### NEW PROJECT WINDOW WIRE-FRAME LABEL ##################################################################################################################################################################################################################################################################################
+newproject_Window_wireframe_Image = {"container": newproject_Window, "id": "imgWireDiagramTemplateB", "type": "Image"}#newProject_imgWireDiagram_Image
+######################## NEW PROJECT WINDOW WIRE-FRAME LABEL ###################################################################################################################################################################################################################################################################################
+ 
+########################### NEW PROJECT WINDOW DESCRPTION ######################################################################################################################################################################################################################################################################################
+newproject_Window_Description_Label = {"container": newproject_Window, "id": "txtproductDescription", "type": "Label"}#newProject_description_Label
+############################ NEW PROJECT WINDOW DESCRPTION ###############################################################################################################################################################################################################################################################################
+ 
+############################# NEW PROJECT WINDOW CONTROLLER VARIANT TITLE ##############################################################################################################################################################################################################################################################################
+newproject_Window_controlelr_variant_title = {"container": newproject_Window, "id": "txtTitleTemplateA", "type": "Label"}#newProject_lblTitle_Label
+############################# NEW PROJECT WINDOW CONTROLLER VARIANT TITLE ##############################################################################################################################################################################################################################################################################
+ 
+############################# NEW PROJECT WINDOW SCROLL BAR ##############################################################################################################################################################################################################################################################################
+newproject_Window_ScrollBar = {"container": newproject_Window, "id": "VerticalScrollBar", "type": "ScrollBar"}
+############################# NEW PROJECT WINDOW SCROLL BAR ##############################################################################################################################################################################################################################################################################
+ 
+############################# NEW PROJECT WINDOW NEXT BUTTON##############################################################################################################################################################################################################################################################################
+newproject_Window_next_Button = {"container": newproject_Window, "id": "btnRightArrow", "type": "Button"}
+############################# NEW PROJECT WINDOW NEXT BUTTON ##############################################################################################################################################################################################################################################################################
+
+###########################################################################################################################
+###################### NEW PROJECT WINDOW ENDS ###############################################################################################
+########################################################################################################################### 
+ 
+ 
+###########################################################################################################################
+###################### NEW PROJECT PRODUCT DESCRIPTION WINDOW ###############################################################################################
+###########################################################################################################################
+ 
+####################### NEW PROJECT TITLE IN PRODUCT DESCRIPTION WINDOW ####################################################################################################################################################################################################################################################################################
+product_description_window_Title_Label = {"container": newproject_Window, "id": "lblTitle", "type": "Label"}
+######################## NEW PROJECT TITLE IN PRODUCT DESCRIPTION WINDOW ###################################################################################################################################################################################################################################################################################
+ 
+######################## PRODUCT DESCRIPTION WINDOW CLOSE BUTTON ###################################################################################################################################################################################################################################################################################
+product_description_window_Close_Button = {"container": newproject_Window, "id": "btnClose", "type": "Button"}
+######################### PRODUCT DESCRIPTION WINDOW CLOSE BUTTON ##################################################################################################################################################################################################################################################################################
+ 
+######################### PRODUCT INFORMATION SELECTION TITLE(ex:select code number ,SW version) ##################################################################################################################################################################################################################################################################################
+product_description_window_productinfo_label = {"container": newproject_Window, "id": "txtselect", "type": "Label"}
+########################## PRODUCT INFORMATION SELECTION  TITLE(ex:select code number ,SW version)#################################################################################################################################################################################################################################################################################
+ 
+########################### PRODUCT INFORMATION SELECTION DETAILS ################################################################################################################################################################################################################################################################################
+product_description__TableItems = {"container": newproject_Window, "id": "tabProductName", "type": "TabItem"}
+product_description_ApplicationType_label = {"container": product_description__TableItems, "id": "lblApplicationType", "type": "Label"}
+product_description_CodeNumber_label = {"container": product_description__TableItems, "id": "lblCodeNumber", "type": "Label"}
+product_description_partnumber_label = {"container": product_description__TableItems, "id": "lblpartnumber", "type": "Label"}
+product_description_powersupply_label = {"container": product_description__TableItems, "id": "lblpowersupply", "type": "Label"}
+product_description_Spindle_label = {"container": product_description__TableItems, "id": "lblSpindle", "type": "Label"}
+product_description_PVVersion_Label = {"container": product_description__TableItems, "id": "lblPVVersion", "type": "Label"}
+########################### PRODUCT INFORMATION SELECTION DETAILS ################################################################################################################################################################################################################################################################################
+ 
+############################PROJECT NAME AND PROJECT DESCRIPTION TITLE##############################################################################################################################################################################################################################################################################
+tabProductName_TabItem = {"container": newproject_Window, "id": "tabProductName", "type": "TabItem"}
+product_description_proname_prodesc_Label = {"container": tabProductName_TabItem, "id": "", "type": "Label"}
+############################PROJECT NAME AND PROJECT DESCRIPTION TITLE###############################################################################################################################################################################################################################################################################
+ 
+#################### PROJECT NAME TITLE IN PROJECT DESCRIPTION WINDOW ##################################################################################################################################
+product_description_window_projectName_Label = {"container": tabProductName_TabItem, "id": "lblProjectName", "type": "Label"}
+#################### PROJECT NAME TITLE IN PROJECT DESCRIPTION WINDOW ##################################################################################################################################
+ 
+#################### PROJECT DESCRIPTION TITLE IN PROJECT DESCRIPTION WINDOW ##################################################################################################################################
+product_description_window_projdescr_label = {"container": tabProductName_TabItem, "id": "lblProjDescr", "type": "Label"}
+#################### PROJECT DESCRIPTION TITLE IN PROJECT DESCRIPTION WINDOW ##################################################################################################################################
+ 
+################ PROJECT DESCRIPTION WINDOW PRODUCT INFORMATION TYPE INFORMATION(Ex:text editor,combobox) OBJECT NAMES #################################################################################################################################
+product_description_window_Application_ComboBox = {"container": tabProductName_TabItem, "id": "cmbApplication", "type": "ComboBox"}
+product_description_window_partnumber_Edit = {"container": tabProductName_TabItem, "id": "txtpartnumber", "type": "Edit"}
+product_description_window_PowerSupply_ComboBox = {"container": tabProductName_TabItem, "id": "cmbPowerSupply", "type": "ComboBox"}
+product_description_window_Spindle_ComboBox= {"container": tabProductName_TabItem, "id": "CmbSpindle", "type": "ComboBox"}
+product_description_window_CodeNumber_ComboBox = {"container": tabProductName_TabItem, "id": "cmbCodeNumber", "type": "ComboBox"}
+product_description_window_PVVersion_ComboBox = {"container": tabProductName_TabItem, "id": "cmbPVVersion", "type": "ComboBox"}
+product_description_window_SWversion_ComboBox = {"container": tabProductName_TabItem, "id": "cmbSWversion", "type": "ComboBox"}
+ 
+sym_product_description_selection = {
+    "ETC1Hx": {"controllerApplication": product_description_window_Application_ComboBox,
+               "power": product_description_window_PowerSupply_ComboBox,
+               "spindle": product_description_window_Spindle_ComboBox,
+               "partnum": product_description_window_partnumber_Edit,
+               },
+    "EET": {"controllerCodeNo": product_description_window_CodeNumber_ComboBox,
+            "controllerPV": product_description_window_PVVersion_ComboBox,
+            },
+    "ERC11x": {"controllerCodeNo": product_description_window_CodeNumber_ComboBox,
+               "controllerPV": product_description_window_PVVersion_ComboBox
+               },
+    "ERC21x": {"controllerCodeNo": product_description_window_CodeNumber_ComboBox,
+               "controllerApplication": product_description_window_Application_ComboBox,
+               },
+    "EKE1x": {"controllerCodeNo": product_description_window_CodeNumber_ComboBox,
+              "controllerPV": product_description_window_SWversion_ComboBox,
+              },
+    "AK-CC55": {"controllerCodeNo": product_description_window_CodeNumber_ComboBox,
+                "softwareVersion": product_description_window_SWversion_ComboBox
+                }
+}
+#################PROJECT DESCRIPTION WINDOW PRODUCT INFORMATION TYPE INFORMATION(Ex:text editor,combobox) OBJECT NAMES#######################################################################################################################################################################################################################################
+ 
+ 
+################# PROJECT DESCRIPTION WINDOW BUTTONS OBJEC NAMES ###########################################################################################################################################################################################################################################################################################
+product_description_window_back_Button = {"container": newproject_Window, "id": "btnLeftArrow", "type": "Button"}
+product_description_window_Cancel_Button = {"container": newproject_Window, "id": "btnCancel", "type": "Button"}
+product_description_window_Finish_Button = {"container": newproject_Window, "id": "btnFinish", "type": "Button"}
+################# PROJECT DESCRIPTION WINDOW BUTTONS OBJEC NAMES ###########################################################################################################################################################################################################################################################################################
+ 
+#################  PROJECT NAME  EDITOR IN PROJECT DESCRIPTION WINDOW #####################################################################################################################################################################################################
+newproject_Product_Name_TabItem = {"container": newproject_Window, "text": "Product Name", "type": "TabItem"}
+product_Name_System_Windows_Controls_StackPanel_Label = {"container": newproject_Product_Name_TabItem, "text": "System.Windows.Controls.StackPanel", "type": "Label"}
+product_description_window_projectname_Edit = {"aboveObject": product_Name_System_Windows_Controls_StackPanel_Label, "container": newproject_Product_Name_TabItem, "type": "Edit"}
+################# PROJECT NAME  EDITOR IN PROJECT DESCRIPTION WINDOW #####################################################################################################################################################################################################
+ 
+################# PROJECT DESCRIPTION EDITOR IN PROJECT DESCRIPTION WINDOW ##################################################################################
+product_Name_Project_Description_Max_250_Characters_Label = {"container": newproject_Product_Name_TabItem, "text": "Project Description (Max 250 Characters)", "type": "Label"}
+product_description_window_description_Edit = {"aboveObject": product_Name_Project_Description_Max_250_Characters_Label, "container": newproject_Product_Name_TabItem, "type": "Edit"}
+ 
+#################  PROJECT DESCRIPTION EDITOR IN PROJECT DESCRIPTION WINDOW ##################################################################################
+ 
+#################  PROJECT DESCRIPTION WINDOW CHECKBOX ##################################################################################
+windowNewProject_Window = {"id": "windowNewProject", "type": "Window"}
+product_description_chkWizardConfig_CheckBox = {"container": windowNewProject_Window, "id": "chkWizardConfig", "type": "CheckBox"}
+#################  PROJECT DESCRIPTION WINDOW CHECKBOX ##################################################################################
+ 
+###########################################################################################################################
+###################### NEW PROJECT PRODUCT DESCRIPTION WINDOW ENDS ###############################################################################################
+########################################################################################################################### 
+ 
+ 
+###########################################################################################################################
+######################  PROJECT WINDOW  ###############################################################################################
+##########################################################################################################################
+
+###################### PROJECT WINDOW MENU ITEMS###############################################################################################
+project_window_Home_Button = {"container": homepage_Window, "id": "btnHome", "name": "btnHome", "type": "Button"}
+project_window_Open_Button = {"container": homepage_Window, "id": "btnOpen", "name": "btnOpen", "type": "Button"}
+project_window_Save_Button = {"container": homepage_Window, "id": "btnSave", "name": "btnSave", "type": "Button"}
+project_window_SaveAs_Button = {"container": homepage_Window, "id": "btnSaveAs", "name": "btnSaveAs", "type": "Button"}
+project_window_Download_Button = {"container": homepage_Window, "id": "btnDownload", "name": "btnDownload", "type": "Button"}
+project_window_Title_Label = {"container": homepage_Window, "id": "lblTitle", "type": "Label"}
+project_window_Printer_Button = {"container": homepage_Window, "id": "btnPrinter", "name": "btnPrinter", "type": "Button"}
+
+
+###################### PROJECT WINDOW MENU ITEMS###############################################################################################
+ 
+###################### PROJECT WINDOW GRID ICONS###############################################################################################
+project_window_txtSearch_Edit = {"container": homepage_Window, "id": "txtSearch", "type": "Edit"}
+project_window_SearchParameters_Button = {"container": homepage_Window, "id": "btnSearchParameters", "name": "btnSearchParameters", "type": "Button"}
+project_window_FactoryReset_Button = {"container": homepage_Window, "id": "btnFactoryReset", "name": "btnFactoryReset", "type": "Button"}
+project_window_ViewMore_Label = {"container": homepage_Window, "id": "lblViewMore", "type": "Label"}
+project_window_helpexpander_Button = {"container": homepage_Window, "id": "btnexpandParamHelp", "name": "btnexpandParamHelp", "type": "Button"}
+###################### PROJECT WINDOW GRID ICONS###############################################################################################
+ 
+###################### PROJECT WINDOW PROJECT NAME AND DESCRIPTION###############################################################################################
+project_window_txtprojectFilename_Label = {"container": homepage_Window, "id": "txtprojectFilename", "type": "Label"}
+project_window_txtDescription_Edit = {"container": homepage_Window, "id": "txtDescription", "type": "Edit"}
+###################### PROJECT WINDOW PROJECT NAME AND DESCRIPTION###############################################################################################
+ 
+###################### PROJECT WINDOW MENU ITEMS###############################################################################################
+newproject_tabController_TabItem = {"container": newproject_Window, "id": "tabController", "type": "TabItem"}
+tabController_datagridProducts_Table = {"container": newproject_tabController_TabItem, "id": "datagridProducts", "type": "Table"}
+datagridProducts_Expander = {"container": tabController_datagridProducts_Table, "id": "", "occurrence": 2, "type": "Expander"}
+o7_0_TableCell = {"column": 0, "container": datagridProducts_Expander, "id": "", "row": 7, "type": "TableCell"}
+o8_0_TableCell = {"column": 0, "container": datagridProducts_Expander, "id": "", "row": 8, "type": "TableCell"}
+###################### PROJECT WINDOW MENU ITEMS###############################################################################################
+ 
+ 
+################################ TREE VIEW LEFT SIDE ####################################################
+windowhomepage_treeViewParameters_Tree = {"container": homepage_Window, "id": "treeViewParameters", "type": "Tree"}
+setparameter_win_recent_project_list = {"container": setparameter_Window, "id": "lsbProjectList", "type": "List"}
+lsbProjectList_ListItem = {"container": setparameter_win_recent_project_list, "id": "", "type": "ListItem"}
+txtProjectpath_Label = {"container": lsbProjectList_ListItem, "id": "txtProjectpath", "type": "Label"}
+newproject_tabController_TabItem = {"container": newproject_Window, "id": "tabController", "type": "TabItem"}
+tabController_datagridProducts_Table = {"container": newproject_tabController_TabItem, "id": "datagridProducts", "type": "Table"}
+datagridProducts_Expander = {"container": tabController_datagridProducts_Table, "id": "", "occurrence": 2, "type": "Expander"}
+################################ TREE VIEW LEFT SIDE ####################################################
+
+################################ SET PARAMTER NEW PROJECT WINDOW PROJECT DETAILS VALUE  #############   
+project_window_Label_Value_1 = {"container": homepage_Window, "id": "tbProductInfoValue0", "type": "Label"}
+project_window_Label_Value_2 = {"container": homepage_Window, "id": "tbProductInfoValue1", "type": "Label"}
+project_window_Label_Value_3 = {"container": homepage_Window, "id": "tbProductInfoValue2", "type": "Label"}
+project_window_Label_Value_4 = {"container": homepage_Window, "id": "tbProductInfoValue3", "type": "Label"}
+project_window_sym_product_details_label_value = {
+                   "ETC1Hx" : { "controllerVariant" : project_window_Label_Value_1,
+                               "controllerApplication" : project_window_Label_Value_2,
+                               "power" : project_window_Label_Value_3,
+                               "controllerCodeNo" : project_window_Label_Value_4
+                                 },
+                   "EET" : {"controllerVariant" : project_window_Label_Value_1,
+                            "controllerCodeNo" : project_window_Label_Value_2,
+                               "softwareVersion" : project_window_Label_Value_3,
+                               "controllerPV" : project_window_Label_Value_4
+                                 },
+                   "ERC11x" :{"controllerVariant" : project_window_Label_Value_1,
+                               "controllerCodeNo" : project_window_Label_Value_2,
+                               "softwareVersion" : project_window_Label_Value_3,
+                               "controllerPV" : project_window_Label_Value_4
+                                 },
+                   "ERC21x" : {"controllerVariant" : project_window_Label_Value_1,
+                               "controllerApplication" : project_window_Label_Value_2,
+                               "controllerCodeNo" : project_window_Label_Value_3
+                                 },
+                   "EKE1x" : { "controllerVariant" : project_window_Label_Value_1,
+                               "controllerCodeNo" : project_window_Label_Value_2,
+                               "controllerPV" : project_window_Label_Value_3
+                                 },
+                   "AK-CC55" : {"controllerVariant" : project_window_Label_Value_1,
+                                "controllerCodeNo" : project_window_Label_Value_2,
+                               "softwareVersion" : project_window_Label_Value_3
+                               }
+                   }
+################################ SET PARAMTER NEW PROJECT WINDOW PROJECT DETAILS VALUE  ############# 
+
+################################ PROJECT WINDOW- INFO BUTTON  ###################################
+project_window_controller_Info_Button = {"container": homepage_Window, "id": "btnInfo", "type": "Button"}
+################################ PROJECT WINDOW- INFO BUTTON  ###################################
+project_window_expand_collapse_Help_Button = {"container": homepage_Window, "id": "btnexpandParamHelp", "name": "btnexpandParamHelp", "type": "Button"}
+project_window_website_link_Label = {"container": homepage_Window, "id": "lbllink", "type": "Label"}
+################################ SET PARAMTER NEW PROJECT WINDOW PROJECT DETAILS LABEL #############
+
+##### label is changing based on controller selection so keeping label_1, label_2....
+project_window_Label_1 = {"container": homepage_Window, "id": "tbProductInfoName0", "type": "Label"}
+project_window_Label_2 = {"container": homepage_Window, "id": "tbProductInfoName1", "type": "Label"}
+project_window_Label_3 = {"container": homepage_Window, "id": "tbProductInfoName2", "type": "Label"}
+project_window_Label_4= {"container": homepage_Window, "id": "tbProductInfoName3", "type": "Label"}
+ 
+project_window_sym_product_details_label_text = {
+                   "ETC1Hx" : { "controllerVariant" : project_window_Label_1,
+                               "controllerApplication" : project_window_Label_2,
+                               "powerSupply" : project_window_Label_3,
+                               "controllerCodeNo" : project_window_Label_4
+                                 },
+                   "EET" : {"controllerVariant" : project_window_Label_1,
+                            "controllerCodeNo" : project_window_Label_2,
+                               "softwareVersion" : project_window_Label_3,
+                               "controllerPV" : project_window_Label_4
+                                 },
+                   "ERC11x" :{"controllerVariant" : project_window_Label_1,
+                               "controllerCodeNo" : project_window_Label_2,
+                               "softwareVersion" : project_window_Label_3,
+                               "controllerPV" : project_window_Label_4
+                                 },
+                   "ERC21x" : {"controllerVariant" : project_window_Label_1,
+                               "controllerApplication" : project_window_Label_2,
+                               "controllerCodeNo" : project_window_Label_3
+                                 },
+                   "EKE1x" : { "controllerVariant" : project_window_Label_1,
+                               "controllerCodeNo" : project_window_Label_2,
+                               "controllerPV" : project_window_Label_3
+                                 },
+                   "AK-CC55" : {"controllerVariant" : project_window_Label_1,
+                                "controllerCodeNo" : project_window_Label_2,
+                               "softwareVersion" : project_window_Label_3
+                               }
+                   }
+################################ SET PARAMTER NEW PROJECT WINDOW PROJECT DETAILS LABEL #############
+         
+################################ PROJECT WINDOW- INFO BUTTON  ###################################
+btnInfo_Button = {"container": homepage_Window, "id": "btnInfo", "type": "Button"}
+################################ PROJECT WINDOW- INFO BUTTON  ###################################
+ 
+################################ PRODUCT INFORMATION WINDOW #####################################
+productinformaiton_window = {"id": "windowproductinformaiton", "type": "Window"}
+productinformaiton_header = {"container": productinformaiton_window, "id": "lblproductinfo", "type": "Label"}
+productinformaiton_close_button = {"container": productinformaiton_window, "id": "btnClose", "type": "Button"}
+productinformaiton_ProductName_Label = {"container": productinformaiton_window, "id": "lblProductName", "type": "Label"}
+productinformaiton_Productimage_Image = {"container": productinformaiton_window, "id": "imgProductimage", "type": "Image"}
+productinformaiton_productDescription_Label = {"container": productinformaiton_window, "id": "txtproductDescription", "type": "Label"}
+productinformaiton_imgWireDiagram_Image = {"container": productinformaiton_window, "id": "imgWireDiagram", "type": "Image"}
+################################ PRODUCT INFORMATION WINDOW #############
+ 
+################################ DATA GRID SYMBOLIC NAMES ####################################################
+prj_window_datagridParameters_Table = {"container": homepage_Window, "id": "datagridParameters", "type": "Table"}
+datagridParameters_datagridExpander_Expander = {"container": prj_window_datagridParameters_Table, "id": "datagridExpander", "type": "Expander"}
+datagridExpander_TableRow_zero = {"container": datagridParameters_datagridExpander_Expander, "row": "0", "type": "TableRow"}
+datagridParameters_expand_colapse_button = {"container": prj_window_datagridParameters_Table, "id": "", "type": "HeaderItem"}
+
+################################ DATA GRID SYMBOLIC NAMES  ####################################################
+ 
+# #################### O N L I N E      C O N T R O L L E R           D E T A I L S   ########################################
+online_controller_variant_CodeNumber_Label = {"container": homepage_Window, "id": "txtCodeNumber", "type": "Label"}
+online_controller_variant_SW_Version_Label = {"container": homepage_Window, "id": "txtVersion", "type": "Label"}
+online_controller_variant_Product_Image = {"container": homepage_Window, "id": "imgProduct", "type": "Image"}
+online_controller_deviceinfo_button = {"container": homepage_Window, "id": "btnConnectedDeviceInfo", "type": "Button"}
+windowhomepage_btnInfo_Button = {"container": homepage_Window, "id": "btnInfo", "type": "Button"}
+prj_window_ViewMoreInfo_Label = {"container": homepage_Window, "id": "lblViewMore", "type": "Label"}
+prj_window_ViewMoreInfo_Label_button = {"container": homepage_Window, "id": "btnMoreinfo", "name": "btnMoreinfo", "type": "Button"}
+
+###########################COMMON KOOLPROG POP-UP MESSAGE BOX SYMBOLIC NAMES################################################################
+messageBoxWindow_Window = {"id": "MessageBoxWindow", "type": "Window"}
+Common_KoolProg_PopUp_window=messageBoxWindow_Window
+Common_KoolProg_PopUp_Image = {"container": messageBoxWindow_Window, "id": "", "type": "Image"}
+Common_KoolProg_PopUp_KoolProg_Label_Home_Window = {"container": messageBoxWindow_Window, "id": "lblTitle", "type": "Label"}
+Common_KoolProg_PopUp_KoolProg_Label = {"container": messageBoxWindow_Window, "id": "lblCaption", "type": "Label"}
+Common_KoolProg_PopUp_close_Button = {"container": messageBoxWindow_Window, "id": "btnclose", "type": "Button"}
+Common_KoolProg_PopUp_Msg_Label = {"container": messageBoxWindow_Window, "id": "lblMsg", "type": "Label"}
+Common_KoolProg_PopUp_Yes_Button = {"container": messageBoxWindow_Window, "id": "btnYes", "type": "Button"}
+Common_KoolProg_PopUp_NO_Button = {"container": messageBoxWindow_Window, "id": "btnNO", "type": "Button"}
+Common_KoolProg_PopUp_Cancel_Button = {"container": messageBoxWindow_Window, "id": "btnCancel", "type": "Button"}
+Common_KoolProg_PopUp_InProject_Button = {"container": messageBoxWindow_Window, "id": "btnInProject", "type": "Button"}
+Common_KoolProg_PopUp_OK_Button = {"container": messageBoxWindow_Window, "id": "btnOK", "type": "Button"}
+############################COMMON KOOLPROG POP-UP MESSAGE BOX SYMBOLIC NAMES################################################################
+
+
+############ WINDOW DIALOG CODE NUMBER AND PROJECT ALREADY EXISTS POPUP SYMBOLIC NAMES ########################################################################
+Code_Number_Popup_Window = {"type": "Window"}
+o_Dialog = {"id": "", "type": "Dialog"}
+Window_Dialog=o_Dialog
+Code_Number_Popup_Window_Edit = {"container": Code_Number_Popup_Window, "type": "Edit"}
+Code_Number_Popup_Window_CodeNumber_Label = {"container": Code_Number_Popup_Window, "occurrence": 3, "type": "Label"}
+Code_Number_Popup_Window_ComboBox = {"container": Code_Number_Popup_Window, "type": "ComboBox"}
+Code_Number_Popup_Window_FileType_Label = {"container": Code_Number_Popup_Window, "type": "Label"}
+Code_Number_Popup_Window_Ok_Button = {"container": Code_Number_Popup_Window, "occurrence": 2, "type": "Button"}
+Code_Number_Popup_Window_Cancel_Button = {"container": Code_Number_Popup_Window, "type": "Button"}
+WindowDialog_PopUp_Yes_Button = {"container": o_Dialog, "id": "", "type": "Button"}
+WindowDialog_PopUp_No_Button = {"container": o_Dialog, "id": "", "occurrence": 2, "type": "Button"}
+############## WINDOW DIALOG CODE NUMBER AND PROJECT ALREADY EXISTS POPUP SYMBOLIC NAMES ########################################################################
+
+################################### WINDOW DIALOG(OPEN/SAVEAS) SYMBOLIC NAMES#######################################################################
+Window_Dialog_Saveas_Edit = {"container": o_Dialog, "id": 1001, "type": "Edit"}
+Window_Dialog_Open_or_Save_Button = {"container": o_Dialog, "id": 1, "type": "Button"}
+Window_Dialog_Cancel_Button = {"container": o_Dialog, "id": 2, "type": "Button"}
+Window_SaveAs_Dialog_ComboBox = {"container": o_Dialog, "id": "", "occurrence": 2, "type": "ComboBox"}
+o_Pane = {"id": "", "occurrence": 12, "type": "Pane"}
+Window_Dialog_SaveAs_Dialog_Toolbar = {"container": o_Pane, "id": 1001, "type": "Toolbar"}
+Window_Dialog_Open_Dialog_ComboBox = {"container": o_Dialog, "id": 1136, "type": "ComboBox"}
+Window_Dialog_Open_Edit = {"container": o_Dialog, "id": 1148, "type": "Edit"}
+o_Pane_2 = {"id": "", "occurrence": 10, "type": "Pane"}
+Window_Open_Dialog_Toolbar = {"container": o_Pane_2, "id": 1001, "type": "Toolbar"}
+Window_Dialog_Open_filename_Label = {"container": o_Dialog, "id": 1090, "type": "Label"}
+Window_Dialog_File_List = {"id": "", "type": "List"}
+
+
+################################### WINDOW DIALOG(OPEN/SAVEAS) SYMBOLIC NAMES#######################################################################
+
+#########################################################################################################################windowpreference_lblLanguages_Label = {"container": windowpreference_Window, "id": "lblLanguages", "type": "Label"}
+##
+######################  PROJECT WINDOW ENDS  ###############################################################################################
+##########################################################################################################################
+
+################################### PREFERENCE WINDOW ###############################################################################
+preference_Window = {"id": "windowpreference", "type": "Window"}
+windowpreference_Window=preference_Window
+preference_Window_Title_Label = {"container": windowpreference_Window, "id": "lblWindowTitle", "type": "Label"}
+preference_Window_close_Button = {"container": windowpreference_Window, "id": "", "type": "Button"}
+preference_Window_Languages_Label = {"container": windowpreference_Window, "id": "lblLanguages", "type": "Label"}
+preference_Window_Languages_ComboBox = {"container": windowpreference_Window, "id": "cmbLanguages", "type": "ComboBox"}
+preference_Window_SaveFileson_Label = {"container": windowpreference_Window, "id": "lblSaveFileson", "type": "Label"}
+preference_Window_FilePath_Edit = {"container": windowpreference_Window, "id": "txtFilePath", "type": "Edit"}
+preference_Window_LangAKCC_Label = {"container": windowpreference_Window, "id": "txtLangAKCC", "type": "Label"}
+preference_Window_Unit_Label = {"container": windowpreference_Window, "id": "lblUnit", "type": "Label"}
+preference_Window_Unitconverter_ComboBox = {"container": windowpreference_Window, "id": "cmbTempconverter", "type": "ComboBox"}
+preference_Window_Baudrate_Label = {"container": windowpreference_Window, "id": "lblBaudrate", "type": "Label"}
+preference_Window_Baudrate_ComboBox = {"container": windowpreference_Window, "id": "cmbBaudrate", "type": "ComboBox"}
+preference_Window_PasswordEnable_CheckBox = {"container": windowpreference_Window, "id": "chkPasswordEnable", "type": "CheckBox"}
+preference_Window_password_Label = {"container": windowpreference_Window, "id": "", "type": "Label"}
+preference_Window_Password_Edit = {"container": windowpreference_Window, "id": "pwdPassword", "type": "Edit"}
+preference_Window_confirm_password_label = {"container": windowpreference_Window, "id": "", "occurrence": 2, "type": "Label"}
+preference_Window_pwd_case_sensitive_Label = {"container": windowpreference_Window, "id": "", "occurrence": 3, "type": "Label"}
+preference_Window_ShowPassword_CheckBox = {"container": windowpreference_Window, "id": "chkShowPassword", "type": "CheckBox"}
+preference_Window_Save_Button = {"container": windowpreference_Window, "id": "btnSave", "type": "Button"}
+preference_Window_Cancel_Button = {"container": windowpreference_Window, "id": "btnCancel", "type": "Button"}
+preference_Window_btnBrowse_Button = {"container": windowpreference_Window, "id": "btnBrowse", "type": "Button"}
+messageBoxWindow_lblTitle_Label = {"container": messageBoxWindow_Window, "id": "lblTitle", "type": "Label"}
+################################### PREFERENCE WINDOW ###############################################################################

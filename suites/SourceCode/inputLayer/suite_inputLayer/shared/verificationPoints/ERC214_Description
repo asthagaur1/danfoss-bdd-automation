@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[ERC 214 is a smart multipurpose refrigeration controller designed to fulfill today’s requirement of commercial refrigeration applications. This controller is suitable for high, medium and low temperature applications with natural, electrical and hot gas defrost compatibilities. Typical applications include Glass door merchandisers, commercial fridges and freezers, cold rooms and various other commercial refrigeration applications.
+The controller comes with four push buttons, a big display, easy and intuitive menu structure and pre-defined applications that ensure ease of use. Controller is loaded with energy efficiency features like smart evaporator fan management, day/night mode and defrosts on demand features. It comes with screw terminal connections for inputs and outputs and Multi-sensor compatibility which gives additional flexibility. 
+ 
+Input/output highlights:
+  • 4 inputs, 2 analogue, 1 analogue/digital and 1 digital
+  • 4 outputs, 1 for compressor (16 Amps), 1 for defrost heater (8 Amps),1 for evaporator fan (3 Amps), and 1 for external alarm/ cabinet light (2 Amps)
+ 
+Key benefits:
+ • Can be used for both cooling and heating applications
+ • 5 inbuilt pre-defined applications for quick set-up
+ • Bigger display with more attractive flat front which is easy to clean
+ • Multi-sensor compatibility (NTC 5K, 10K, PTC, PT1000)
+ • Defrost on demand
+ • Smart fan control
+ • Cabinet light control
+ • Screw connectors
+ • Voltage protection
+ • Condenser cleaning alarm
+ • Day/Night mode
+ • Galvanic isolation]]>
+<base64EncodedValue>RVJDIDIxNCBpcyBhIHNtYXJ0IG11bHRpcHVycG9zZSByZWZyaWdlcmF0aW9uIGNvbnRyb2xsZXIgZGVzaWduZWQgdG8gZnVsZmlsbCB0b2RheeKAmXMgcmVxdWlyZW1lbnQgb2YgY29tbWVyY2lhbCByZWZyaWdlcmF0aW9uIGFwcGxpY2F0aW9ucy4gVGhpcyBjb250cm9sbGVyIGlzIHN1aXRhYmxlIGZvciBoaWdoLCBtZWRpdW0gYW5kIGxvdyB0ZW1wZXJhdHVyZSBhcHBsaWNhdGlvbnMgd2l0aCBuYXR1cmFsLCBlbGVjdHJpY2FsIGFuZCBob3QgZ2FzIGRlZnJvc3QgY29tcGF0aWJpbGl0aWVzLiBUeXBpY2FsIGFwcGxpY2F0aW9ucyBpbmNsdWRlIEdsYXNzIGRvb3IgbWVyY2hhbmRpc2VycywgY29tbWVyY2lhbCBmcmlkZ2VzIGFuZCBmcmVlemVycywgY29sZCByb29tcyBhbmQgdmFyaW91cyBvdGhlciBjb21tZXJjaWFsIHJlZnJpZ2VyYXRpb24gYXBwbGljYXRpb25zLg0KVGhlIGNvbnRyb2xsZXIgY29tZXMgd2l0aCBmb3VyIHB1c2ggYnV0dG9ucywgYSBiaWcgZGlzcGxheSwgZWFzeSBhbmQgaW50dWl0aXZlIG1lbnUgc3RydWN0dXJlIGFuZCBwcmUtZGVmaW5lZCBhcHBsaWNhdGlvbnMgdGhhdCBlbnN1cmUgZWFzZSBvZiB1c2UuIENvbnRyb2xsZXIgaXMgbG9hZGVkIHdpdGggZW5lcmd5IGVmZmljaWVuY3kgZmVhdHVyZXMgbGlrZSBzbWFydCBldmFwb3JhdG9yIGZhbiBtYW5hZ2VtZW50LCBkYXkvbmlnaHQgbW9kZSBhbmQgZGVmcm9zdHMgb24gZGVtYW5kIGZlYXR1cmVzLiBJdCBjb21lcyB3aXRoIHNjcmV3IHRlcm1pbmFsIGNvbm5lY3Rpb25zIGZvciBpbnB1dHMgYW5kIG91dHB1dHMgYW5kIE11bHRpLXNlbnNvciBjb21wYXRpYmlsaXR5IHdoaWNoIGdpdmVzIGFkZGl0aW9uYWwgZmxleGliaWxpdHkuIA0KIA0KSW5wdXQvb3V0cHV0IGhpZ2hsaWdodHM6DQogIOKAoiA0IGlucHV0cywgMiBhbmFsb2d1ZSwgMSBhbmFsb2d1ZS9kaWdpdGFsIGFuZCAxIGRpZ2l0YWwNCiAg4oCiIDQgb3V0cHV0cywgMSBmb3IgY29tcHJlc3NvciAoMTYgQW1wcyksIDEgZm9yIGRlZnJvc3QgaGVhdGVyICg4IEFtcHMpLDEgZm9yIGV2YXBvcmF0b3IgZmFuICgzIEFtcHMpLCBhbmQgMSBmb3IgZXh0ZXJuYWwgYWxhcm0vIGNhYmluZXQgbGlnaHQgKDIgQW1wcykNCiANCktleSBiZW5lZml0czoNCiDigKIgQ2FuIGJlIHVzZWQgZm9yIGJvdGggY29vbGluZyBhbmQgaGVhdGluZyBhcHBsaWNhdGlvbnMNCiDigKIgNSBpbmJ1aWx0IHByZS1kZWZpbmVkIGFwcGxpY2F0aW9ucyBmb3IgcXVpY2sgc2V0LXVwDQog4oCiIEJpZ2dlciBkaXNwbGF5IHdpdGggbW9yZSBhdHRyYWN0aXZlIGZsYXQgZnJvbnQgd2hpY2ggaXMgZWFzeSB0byBjbGVhbg0KIOKAoiBNdWx0aS1zZW5zb3IgY29tcGF0aWJpbGl0eSAoTlRDIDVLLCAxMEssIFBUQywgUFQxMDAwKQ0KIOKAoiBEZWZyb3N0IG9uIGRlbWFuZA0KIOKAoiBTbWFydCBmYW4gY29udHJvbA0KIOKAoiBDYWJpbmV0IGxpZ2h0IGNvbnRyb2wNCiDigKIgU2NyZXcgY29ubmVjdG9ycw0KIOKAoiBWb2x0YWdlIHByb3RlY3Rpb24NCiDigKIgQ29uZGVuc2VyIGNsZWFuaW5nIGFsYXJtDQog4oCiIERheS9OaWdodCBtb2RlDQog4oCiIEdhbHZhbmljIGlzb2xhdGlvbg==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Mode:Cooling/Heating
+No predefined application]]>
+<base64EncodedValue>TW9kZTpDb29saW5nL0hlYXRpbmcNCk5vIHByZWRlZmluZWQgYXBwbGljYXRpb24=</base64EncodedValue>
+</Verification>
+</VerificationPoint>

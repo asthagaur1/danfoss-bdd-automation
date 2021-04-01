@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[It is suitable for two door cabinets with two separate refrigeration system. Two compressors are controlled independent of each other based on the respective compartment temperatures. First two relays are used for compressors and third relay is used for Evaporator fan.]]>
+<base64EncodedValue>SXQgaXMgc3VpdGFibGUgZm9yIHR3byBkb29yIGNhYmluZXRzIHdpdGggdHdvIHNlcGFyYXRlIHJlZnJpZ2VyYXRpb24gc3lzdGVtLiBUd28gY29tcHJlc3NvcnMgYXJlIGNvbnRyb2xsZWQgaW5kZXBlbmRlbnQgb2YgZWFjaCBvdGhlciBiYXNlZCBvbiB0aGUgcmVzcGVjdGl2ZSBjb21wYXJ0bWVudCB0ZW1wZXJhdHVyZXMuIEZpcnN0IHR3byByZWxheXMgYXJlIHVzZWQgZm9yIGNvbXByZXNzb3JzIGFuZCB0aGlyZCByZWxheSBpcyB1c2VkIGZvciBFdmFwb3JhdG9yIGZhbi4=</base64EncodedValue>
+</Verification>
+</VerificationPoint>

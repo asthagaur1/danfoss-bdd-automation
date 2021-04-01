@@ -1,0 +1,5 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+Common,Project Name and Description Label,Text,,Give your project filename and description,
+Common,Project Description Max Label,Text,,Project Description (Max 250 Characters),
+Common,Create_New_ProjectDescription_Edit,verify_MaxCharacter,,BoundaryLimit-250,
+Common,Create_New_ProjectDescription_Edit,verify_UnwantedCharEntryInEdit,,"UnSupportedCharacters$&$*$|$;$:$<$>$/$""""$?$,$''","MessageBox_window,Message Box Display Ok Button,Message Box Characters Not Supported Label,Message Box Close Button"

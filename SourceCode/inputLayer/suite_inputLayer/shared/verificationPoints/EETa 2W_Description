@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Two relay advanced controller with wide voltage range (90-255V/50-60Hz power supply)]]>
+<base64EncodedValue>VHdvIHJlbGF5IGFkdmFuY2VkIGNvbnRyb2xsZXIgd2l0aCB3aWRlIHZvbHRhZ2UgcmFuZ2UgKDkwLTI1NVYvNTAtNjBIeiBwb3dlciBzdXBwbHkp</base64EncodedValue>
+</Verification>
+</VerificationPoint>

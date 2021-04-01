@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[It has all the features of standard such as compressor control, defrost control, Alarms, Voltage protection and compressor protection with an addition protection to compressor against high condenser temperature.]]>
+<base64EncodedValue>SXQgaGFzIGFsbCB0aGUgZmVhdHVyZXMgb2Ygc3RhbmRhcmQgc3VjaCBhcyBjb21wcmVzc29yIGNvbnRyb2wsIGRlZnJvc3QgY29udHJvbCwgQWxhcm1zLCBWb2x0YWdlIHByb3RlY3Rpb24gYW5kIGNvbXByZXNzb3IgcHJvdGVjdGlvbiB3aXRoIGFuIGFkZGl0aW9uIHByb3RlY3Rpb24gdG8gY29tcHJlc3NvciBhZ2FpbnN0IGhpZ2ggY29uZGVuc2VyIHRlbXBlcmF0dXJlLg==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

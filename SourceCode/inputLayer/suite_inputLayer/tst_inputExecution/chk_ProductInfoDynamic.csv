@@ -1,0 +1,5 @@
+controllerFamily,Object Name,Action,ToolTip/Name,Value,Value1
+"ERC21x, ETC1Hx",New Project Window Controller Image,verify_Image,,SetParametersProductInfoImage	,
+ERC21x,Create_New_ApplicationCB,verify_ProductInfo,,App0%%App1%%App2%%App3%%App4%%App5,"Fdynamic_WireFrameImage,New Project Window Controller WireImage,verify_WireImage$$Fdynamic_Description,Product Description Label,verify_Text$$Fdynamic_Label,New Project Dynamic Application Label,Text"
+ETC1Hx,Create_New_ApplicationCB,verify_ProductInfo,,STANDARD%%GDM101%%FG_GDM%%DUALBAND102%%COND101%%WINECOOLER%%DUALDEFROST%%MEDICINECOOLER%%DOUBLEDOOR%%DFNOFROST100,"Fdynamic_Description,Product Description Label,verify_Text$$Fdynamic_Label,New Project Dynamic Application Label,Text"
+"ERC21x,ETC1Hx",New Project Product Label,Text,,Dynamic_controllerVariant,

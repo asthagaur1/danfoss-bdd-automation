@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[The ERC 111A is a multipurpose refrigeration controller that includes temperature and defrost management. Cutting overall total cost level, it meets the requirements of today´s advanced commercial applications. The ERC is perfect for refrigerated and heating restaurant equipment, bottle coolers, stainless steel refrigerators & freezers, beer coolers, light supermarket applications and many other uses.
+ 
+Input/ Output highlights:
+   •3 inputs, 2 configurable and 1 digital
+   •1 configurable relay output (16 Amps)
+   •Integrated LED display (3 digits)
+   •Inbuilt buzzer (on request only)
+ 
+Key benefits:
+    •Configurable inputs and outputs which allows to be used for both cooling and heating applications
+    •Wide voltage range ( 100VAC to 240VAC, 50/60 Hz), automatic switch mode power supply
+    •Compressor management 
+    •Adaptive defrost management (only natural defrost management)
+    •4 push configurable buttons with integrated IP65 front design
+    •3 level password protection
+    •Fully compatible with flammable refrigerants 
+    •Improved energy saving features]]>
+<base64EncodedValue>VGhlIEVSQyAxMTFBIGlzIGEgbXVsdGlwdXJwb3NlIHJlZnJpZ2VyYXRpb24gY29udHJvbGxlciB0aGF0IGluY2x1ZGVzIHRlbXBlcmF0dXJlIGFuZCBkZWZyb3N0IG1hbmFnZW1lbnQuIEN1dHRpbmcgb3ZlcmFsbCB0b3RhbCBjb3N0IGxldmVsLCBpdCBtZWV0cyB0aGUgcmVxdWlyZW1lbnRzIG9mIHRvZGF5wrRzIGFkdmFuY2VkIGNvbW1lcmNpYWwgYXBwbGljYXRpb25zLiBUaGUgRVJDIGlzIHBlcmZlY3QgZm9yIHJlZnJpZ2VyYXRlZCBhbmQgaGVhdGluZyByZXN0YXVyYW50IGVxdWlwbWVudCwgYm90dGxlIGNvb2xlcnMsIHN0YWlubGVzcyBzdGVlbCByZWZyaWdlcmF0b3JzICYgZnJlZXplcnMsIGJlZXIgY29vbGVycywgbGlnaHQgc3VwZXJtYXJrZXQgYXBwbGljYXRpb25zIGFuZCBtYW55IG90aGVyIHVzZXMuDQogDQpJbnB1dC8gT3V0cHV0IGhpZ2hsaWdodHM6DQogICDigKIzIGlucHV0cywgMiBjb25maWd1cmFibGUgYW5kIDEgZGlnaXRhbA0KICAg4oCiMSBjb25maWd1cmFibGUgcmVsYXkgb3V0cHV0ICgxNiBBbXBzKQ0KICAg4oCiSW50ZWdyYXRlZCBMRUQgZGlzcGxheSAoMyBkaWdpdHMpDQogICDigKJJbmJ1aWx0IGJ1enplciAob24gcmVxdWVzdCBvbmx5KQ0KIA0KS2V5IGJlbmVmaXRzOg0KICAgIOKAokNvbmZpZ3VyYWJsZSBpbnB1dHMgYW5kIG91dHB1dHMgd2hpY2ggYWxsb3dzIHRvIGJlIHVzZWQgZm9yIGJvdGggY29vbGluZyBhbmQgaGVhdGluZyBhcHBsaWNhdGlvbnMNCiAgICDigKJXaWRlIHZvbHRhZ2UgcmFuZ2UgKCAxMDBWQUMgdG8gMjQwVkFDLCA1MC82MCBIeiksIGF1dG9tYXRpYyBzd2l0Y2ggbW9kZSBwb3dlciBzdXBwbHkNCiAgICDigKJDb21wcmVzc29yIG1hbmFnZW1lbnQgDQogICAg4oCiQWRhcHRpdmUgZGVmcm9zdCBtYW5hZ2VtZW50IChvbmx5IG5hdHVyYWwgZGVmcm9zdCBtYW5hZ2VtZW50KQ0KICAgIOKAojQgcHVzaCBjb25maWd1cmFibGUgYnV0dG9ucyB3aXRoIGludGVncmF0ZWQgSVA2NSBmcm9udCBkZXNpZ24NCiAgICDigKIzIGxldmVsIHBhc3N3b3JkIHByb3RlY3Rpb24NCiAgICDigKJGdWxseSBjb21wYXRpYmxlIHdpdGggZmxhbW1hYmxlIHJlZnJpZ2VyYW50cyANCiAgICDigKJJbXByb3ZlZCBlbmVyZ3kgc2F2aW5nIGZlYXR1cmVz</base64EncodedValue>
+</Verification>
+</VerificationPoint>

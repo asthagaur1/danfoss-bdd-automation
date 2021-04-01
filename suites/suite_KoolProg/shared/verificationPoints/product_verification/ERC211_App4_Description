@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Mode       :Heating
+
+Description:Heating Thermostat
+
+Temperature:(20 – 60 °C)
+
+Defrosttype: None
+
+Defrostend : None]]>
+<base64EncodedValue>TW9kZSAgICAgICA6SGVhdGluZw0KDQpEZXNjcmlwdGlvbjpIZWF0aW5nIFRoZXJtb3N0YXQNCg0KVGVtcGVyYXR1cmU6KDIwIOKAkyA2MCDCsEMpDQoNCkRlZnJvc3R0eXBlOiBOb25lDQoNCkRlZnJvc3RlbmQgOiBOb25l</base64EncodedValue>
+</Verification>
+</VerificationPoint>

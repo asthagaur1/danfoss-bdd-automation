@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[In this application, controller handle the defrost based on the temperature inputs from two defrost sensors (Sensor port 1.1 and 2.1).  If defrost start and stop by temperature is selected, it initiates defrost when any of the sensor reaches the defrost start temperature and terminates the defrost when both the sensor temperature goes above defrost terminate temperature respecting maximum defrost time. Hot gas defrost feature is not available in this application All other features remain same as standard application.]]>
+<base64EncodedValue>SW4gdGhpcyBhcHBsaWNhdGlvbiwgY29udHJvbGxlciBoYW5kbGUgdGhlIGRlZnJvc3QgYmFzZWQgb24gdGhlIHRlbXBlcmF0dXJlIGlucHV0cyBmcm9tIHR3byBkZWZyb3N0IHNlbnNvcnMgKFNlbnNvciBwb3J0IDEuMSBhbmQgMi4xKS4gIElmIGRlZnJvc3Qgc3RhcnQgYW5kIHN0b3AgYnkgdGVtcGVyYXR1cmUgaXMgc2VsZWN0ZWQsIGl0IGluaXRpYXRlcyBkZWZyb3N0IHdoZW4gYW55IG9mIHRoZSBzZW5zb3IgcmVhY2hlcyB0aGUgZGVmcm9zdCBzdGFydCB0ZW1wZXJhdHVyZSBhbmQgdGVybWluYXRlcyB0aGUgZGVmcm9zdCB3aGVuIGJvdGggdGhlIHNlbnNvciB0ZW1wZXJhdHVyZSBnb2VzIGFib3ZlIGRlZnJvc3QgdGVybWluYXRlIHRlbXBlcmF0dXJlIHJlc3BlY3RpbmcgbWF4aW11bSBkZWZyb3N0IHRpbWUuIEhvdCBnYXMgZGVmcm9zdCBmZWF0dXJlIGlzIG5vdCBhdmFpbGFibGUgaW4gdGhpcyBhcHBsaWNhdGlvbiBBbGwgb3RoZXIgZmVhdHVyZXMgcmVtYWluIHNhbWUgYXMgc3RhbmRhcmQgYXBwbGljYXRpb24u</base64EncodedValue>
+</Verification>
+</VerificationPoint>

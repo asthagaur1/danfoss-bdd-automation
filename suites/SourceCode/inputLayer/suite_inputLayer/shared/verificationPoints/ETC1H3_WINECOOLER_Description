@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Contains Heater and compressor management. Heater and evaporator sensors are present in opposite ends of the cabinet for storing Red wine(18° C) and white wine(5 ° C). Natural defrost only as all three relays are occupied(Compressor + heater + fan). Separate set points can be set via external compatible Remote displays (ETPR1).]]>
+<base64EncodedValue>Q29udGFpbnMgSGVhdGVyIGFuZCBjb21wcmVzc29yIG1hbmFnZW1lbnQuIEhlYXRlciBhbmQgZXZhcG9yYXRvciBzZW5zb3JzIGFyZSBwcmVzZW50IGluIG9wcG9zaXRlIGVuZHMgb2YgdGhlIGNhYmluZXQgZm9yIHN0b3JpbmcgUmVkIHdpbmUoMTjCsCBDKSBhbmQgd2hpdGUgd2luZSg1IMKwIEMpLiBOYXR1cmFsIGRlZnJvc3Qgb25seSBhcyBhbGwgdGhyZWUgcmVsYXlzIGFyZSBvY2N1cGllZChDb21wcmVzc29yICsgaGVhdGVyICsgZmFuKS4gU2VwYXJhdGUgc2V0IHBvaW50cyBjYW4gYmUgc2V0IHZpYSBleHRlcm5hbCBjb21wYXRpYmxlIFJlbW90ZSBkaXNwbGF5cyAoRVRQUjEpLg==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

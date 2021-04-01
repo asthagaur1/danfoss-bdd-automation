@@ -1,0 +1,8 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+ERC21x,ERC211,,,,
+ETC1Hx,ETC1H1,"chk_Application(application)
+chk_PartNoPowSupplySpindle",,,
+EKE1x,EKE 1A,"chk_WizardCheckBox
+chk_CodeNumber_PVVersion(codeNumber_PVVersion,IsPVVersion)",,,
+ERC11x,ERC111A,"chk_CodeNumber_PVVersion(codeNumber_PVVersion,IsPVVersion)",,,
+AK-CC55,AK-CC55 Compact,chk_CodeNumber_SWVersion(codeNumberSWVersion),,,

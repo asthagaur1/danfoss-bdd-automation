@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Suitable for medicine cooler application where 3 set points needs to be maintained. Top set point, Bottom set point and bottom lower set point. Top set point is used for controlling heater and bottom set points for compressor. During start up, if the bottom temperature is higher than the specified value, controller will take the bottom lower set point for a specified duration.]]>
+<base64EncodedValue>U3VpdGFibGUgZm9yIG1lZGljaW5lIGNvb2xlciBhcHBsaWNhdGlvbiB3aGVyZSAzIHNldCBwb2ludHMgbmVlZHMgdG8gYmUgbWFpbnRhaW5lZC4gVG9wIHNldCBwb2ludCwgQm90dG9tIHNldCBwb2ludCBhbmQgYm90dG9tIGxvd2VyIHNldCBwb2ludC4gVG9wIHNldCBwb2ludCBpcyB1c2VkIGZvciBjb250cm9sbGluZyBoZWF0ZXIgYW5kIGJvdHRvbSBzZXQgcG9pbnRzIGZvciBjb21wcmVzc29yLiBEdXJpbmcgc3RhcnQgdXAsIGlmIHRoZSBib3R0b20gdGVtcGVyYXR1cmUgaXMgaGlnaGVyIHRoYW4gdGhlIHNwZWNpZmllZCB2YWx1ZSwgY29udHJvbGxlciB3aWxsIHRha2UgdGhlIGJvdHRvbSBsb3dlciBzZXQgcG9pbnQgZm9yIGEgc3BlY2lmaWVkIGR1cmF0aW9uLg==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

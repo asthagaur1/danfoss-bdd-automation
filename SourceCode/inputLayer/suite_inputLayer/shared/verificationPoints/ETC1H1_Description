@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[The ETC 1H1 is low cost flexible platform Electronic temperature controller, with an onboard micro-controller and application specific software, perfect for light commercial refrigeration applications.
+ 
+Inputs/ Output highlights:
+    •3 analogue inputs for sensors/ remote display and PC communication capability to change          configuration
+     •1 relay output for compressor control (16 Amps)
+ 
+Key benefits:
+     •Compressor protection against voltage fluctuations and high condenser temperature
+     •High acuracy combined with close differentials and narrow tolerances ensures improved control 
+     •Pressure equalization protection on starting the device
+     •Built in timer for enhanced functionalities and defrost management
+     •Alarm management
+     •Compatible with flammable refrigerants 
+ 
+The ETC1H1 is developed for applications such as:
+    •Refrigerators
+    •Bottle coolers
+    •Ice banks
+    •Street coolers
+    •Light commercial kitchen appliances]]>
+<base64EncodedValue>VGhlIEVUQyAxSDEgaXMgbG93IGNvc3QgZmxleGlibGUgcGxhdGZvcm0gRWxlY3Ryb25pYyB0ZW1wZXJhdHVyZSBjb250cm9sbGVyLCB3aXRoIGFuIG9uYm9hcmQgbWljcm8tY29udHJvbGxlciBhbmQgYXBwbGljYXRpb24gc3BlY2lmaWMgc29mdHdhcmUsIHBlcmZlY3QgZm9yIGxpZ2h0IGNvbW1lcmNpYWwgcmVmcmlnZXJhdGlvbiBhcHBsaWNhdGlvbnMuDQogDQpJbnB1dHMvIE91dHB1dCBoaWdobGlnaHRzOg0KICAgIOKAojMgYW5hbG9ndWUgaW5wdXRzIGZvciBzZW5zb3JzLyByZW1vdGUgZGlzcGxheSBhbmQgUEMgY29tbXVuaWNhdGlvbiBjYXBhYmlsaXR5IHRvIGNoYW5nZSAgICAgICAgICBjb25maWd1cmF0aW9uDQogICAgIOKAojEgcmVsYXkgb3V0cHV0IGZvciBjb21wcmVzc29yIGNvbnRyb2wgKDE2IEFtcHMpDQogDQpLZXkgYmVuZWZpdHM6DQogICAgIOKAokNvbXByZXNzb3IgcHJvdGVjdGlvbiBhZ2FpbnN0IHZvbHRhZ2UgZmx1Y3R1YXRpb25zIGFuZCBoaWdoIGNvbmRlbnNlciB0ZW1wZXJhdHVyZQ0KICAgICDigKJIaWdoIGFjdXJhY3kgY29tYmluZWQgd2l0aCBjbG9zZSBkaWZmZXJlbnRpYWxzIGFuZCBuYXJyb3cgdG9sZXJhbmNlcyBlbnN1cmVzIGltcHJvdmVkIGNvbnRyb2wgDQogICAgIOKAolByZXNzdXJlIGVxdWFsaXphdGlvbiBwcm90ZWN0aW9uIG9uIHN0YXJ0aW5nIHRoZSBkZXZpY2UNCiAgICAg4oCiQnVpbHQgaW4gdGltZXIgZm9yIGVuaGFuY2VkIGZ1bmN0aW9uYWxpdGllcyBhbmQgZGVmcm9zdCBtYW5hZ2VtZW50DQogICAgIOKAokFsYXJtIG1hbmFnZW1lbnQNCiAgICAg4oCiQ29tcGF0aWJsZSB3aXRoIGZsYW1tYWJsZSByZWZyaWdlcmFudHMgDQogDQpUaGUgRVRDMUgxIGlzIGRldmVsb3BlZCBmb3IgYXBwbGljYXRpb25zIHN1Y2ggYXM6DQogICAg4oCiUmVmcmlnZXJhdG9ycw0KICAgIOKAokJvdHRsZSBjb29sZXJzDQogICAg4oCiSWNlIGJhbmtzDQogICAg4oCiU3RyZWV0IGNvb2xlcnMNCiAgICDigKJMaWdodCBjb21tZXJjaWFsIGtpdGNoZW4gYXBwbGlhbmNlcw==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

@@ -1,0 +1,7 @@
+controllerFamily,Object Name,Action,ToolTip/Name,Value,Value1
+ETC1Hx,New Project Part Number Label ,Text,,Your part number:,
+ETC1Hx,New Project Part Number Edit,CheckExistenceOfObject,,,
+ETC1Hx,New Project Power Supply Label,Text,,Power supply:,
+ETC1Hx,New Project Power Supply ComboBox,ComboBox_EnumExistenceCheck,,230Vac 50/60Hz%%120Vac 60Hz,
+ETC1Hx,New Project Spindle Label,Text,,Spindle:,
+ETC1Hx,New Project Spindle ComboBox,ComboBox_EnumExistenceCheck,,Panel without spindle%%Panel + spindle without stop function%%Panel + spindle with stop function,

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Suitable for low ambient applications where it requires to heat the cabinet air to maintain desired temperature level (Outdoor bottle cooler applications). It has Auto heat functionality with a separate temperature band.]]>
+<base64EncodedValue>U3VpdGFibGUgZm9yIGxvdyBhbWJpZW50IGFwcGxpY2F0aW9ucyB3aGVyZSBpdCByZXF1aXJlcyB0byBoZWF0IHRoZSBjYWJpbmV0IGFpciB0byBtYWludGFpbiBkZXNpcmVkIHRlbXBlcmF0dXJlIGxldmVsIChPdXRkb29yIGJvdHRsZSBjb29sZXIgYXBwbGljYXRpb25zKS4gSXQgaGFzIEF1dG8gaGVhdCBmdW5jdGlvbmFsaXR5IHdpdGggYSBzZXBhcmF0ZSB0ZW1wZXJhdHVyZSBiYW5kLg==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

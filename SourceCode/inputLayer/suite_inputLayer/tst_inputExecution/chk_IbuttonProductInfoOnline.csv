@@ -1,0 +1,5 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+Common,KoolProg productInfo I button Online,Click_Button,,,
+Common,KoolProg productInfo I button Label Online,ValidateIbuttonOnline,,,"Fdynamic_WireFrameImage,SetParameters WireDiag Image,verify_WireImage$$Fdynamic_Description,Product Description Label,verify_Text$$Fdynamic_Description,SetParameters ProductInfo,verify_Image"
+Common,SetParameters ProductInfo Close Button,Click_Button,,,
+,,,,SetParameters WireDiag Image,

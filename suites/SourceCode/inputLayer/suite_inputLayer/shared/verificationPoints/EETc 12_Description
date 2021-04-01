@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[One relay compact controller with 230V power supply]]>
+<base64EncodedValue>T25lIHJlbGF5IGNvbXBhY3QgY29udHJvbGxlciB3aXRoIDIzMFYgcG93ZXIgc3VwcGx5</base64EncodedValue>
+</Verification>
+</VerificationPoint>

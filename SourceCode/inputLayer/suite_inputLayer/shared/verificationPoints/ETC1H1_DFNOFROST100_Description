@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Suitable for standalone commercial Refrigerators and Freezers applications. Key feature includes compressor control, defrost control, Alarms, voltage protection, compressor protection, etc. Supports different types of defrost like natural and Electric defrost. Also defrost at start up is introduced in this variant  to encounter a situation where the defrost session is disturbed by power loss]]>
+<base64EncodedValue>U3VpdGFibGUgZm9yIHN0YW5kYWxvbmUgY29tbWVyY2lhbCBSZWZyaWdlcmF0b3JzIGFuZCBGcmVlemVycyBhcHBsaWNhdGlvbnMuIEtleSBmZWF0dXJlIGluY2x1ZGVzIGNvbXByZXNzb3IgY29udHJvbCwgZGVmcm9zdCBjb250cm9sLCBBbGFybXMsIHZvbHRhZ2UgcHJvdGVjdGlvbiwgY29tcHJlc3NvciBwcm90ZWN0aW9uLCBldGMuIFN1cHBvcnRzIGRpZmZlcmVudCB0eXBlcyBvZiBkZWZyb3N0IGxpa2UgbmF0dXJhbCBhbmQgRWxlY3RyaWMgZGVmcm9zdC4gQWxzbyBkZWZyb3N0IGF0IHN0YXJ0IHVwIGlzIGludHJvZHVjZWQgaW4gdGhpcyB2YXJpYW50ICB0byBlbmNvdW50ZXIgYSBzaXR1YXRpb24gd2hlcmUgdGhlIGRlZnJvc3Qgc2Vzc2lvbiBpcyBkaXN0dXJiZWQgYnkgcG93ZXIgbG9zcw==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

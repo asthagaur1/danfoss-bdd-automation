@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[The ETC 1H3 is low cost flexible platform Electronic temperature controller, with an onboard micro-controller and application specific software, perfect for light commercial refrigeration applications.
+ 
+Inputs/ Output highlights:
+•3 analogue inputs for sensors/ remote display and PC communication capability to change configuration
+•3 relay outputs, one for compressor control (16 Amps), one for defrost heater (5 Amps) and one for evaporator fan control (5 Amps)
+ 
+Key benefits:
+     •Compressor protection against voltage fluctuations and high condenser temperature
+     •High accuracy combined with close differentials and narrow tolerances ensures improved control 
+     •Pressure equalization protection on starting the device
+     •Built in timer for enhanced functionalities and defrost management
+     •Electric and hot gas defrost control
+     •Alarm management
+     •Evaporator Fan management
+ 
+The ETC1H3 is developed for applications such as:
+      •Refrigerators
+      •Bottle coolers
+      •Ice banks
+      •Street coolers
+      •Light commercial kitchen appliances
+      •Freezer
+      •Wine cooler]]>
+<base64EncodedValue>VGhlIEVUQyAxSDMgaXMgbG93IGNvc3QgZmxleGlibGUgcGxhdGZvcm0gRWxlY3Ryb25pYyB0ZW1wZXJhdHVyZSBjb250cm9sbGVyLCB3aXRoIGFuIG9uYm9hcmQgbWljcm8tY29udHJvbGxlciBhbmQgYXBwbGljYXRpb24gc3BlY2lmaWMgc29mdHdhcmUsIHBlcmZlY3QgZm9yIGxpZ2h0IGNvbW1lcmNpYWwgcmVmcmlnZXJhdGlvbiBhcHBsaWNhdGlvbnMuDQogDQpJbnB1dHMvIE91dHB1dCBoaWdobGlnaHRzOg0K4oCiMyBhbmFsb2d1ZSBpbnB1dHMgZm9yIHNlbnNvcnMvIHJlbW90ZSBkaXNwbGF5IGFuZCBQQyBjb21tdW5pY2F0aW9uIGNhcGFiaWxpdHkgdG8gY2hhbmdlIGNvbmZpZ3VyYXRpb24NCuKAojMgcmVsYXkgb3V0cHV0cywgb25lIGZvciBjb21wcmVzc29yIGNvbnRyb2wgKDE2IEFtcHMpLCBvbmUgZm9yIGRlZnJvc3QgaGVhdGVyICg1IEFtcHMpIGFuZCBvbmUgZm9yIGV2YXBvcmF0b3IgZmFuIGNvbnRyb2wgKDUgQW1wcykNCiANCktleSBiZW5lZml0czoNCiAgICAg4oCiQ29tcHJlc3NvciBwcm90ZWN0aW9uIGFnYWluc3Qgdm9sdGFnZSBmbHVjdHVhdGlvbnMgYW5kIGhpZ2ggY29uZGVuc2VyIHRlbXBlcmF0dXJlDQogICAgIOKAokhpZ2ggYWNjdXJhY3kgY29tYmluZWQgd2l0aCBjbG9zZSBkaWZmZXJlbnRpYWxzIGFuZCBuYXJyb3cgdG9sZXJhbmNlcyBlbnN1cmVzIGltcHJvdmVkIGNvbnRyb2wgDQogICAgIOKAolByZXNzdXJlIGVxdWFsaXphdGlvbiBwcm90ZWN0aW9uIG9uIHN0YXJ0aW5nIHRoZSBkZXZpY2UNCiAgICAg4oCiQnVpbHQgaW4gdGltZXIgZm9yIGVuaGFuY2VkIGZ1bmN0aW9uYWxpdGllcyBhbmQgZGVmcm9zdCBtYW5hZ2VtZW50DQogICAgIOKAokVsZWN0cmljIGFuZCBob3QgZ2FzIGRlZnJvc3QgY29udHJvbA0KICAgICDigKJBbGFybSBtYW5hZ2VtZW50DQogICAgIOKAokV2YXBvcmF0b3IgRmFuIG1hbmFnZW1lbnQNCiANClRoZSBFVEMxSDMgaXMgZGV2ZWxvcGVkIGZvciBhcHBsaWNhdGlvbnMgc3VjaCBhczoNCiAgICAgIOKAolJlZnJpZ2VyYXRvcnMNCiAgICAgIOKAokJvdHRsZSBjb29sZXJzDQogICAgICDigKJJY2UgYmFua3MNCiAgICAgIOKAolN0cmVldCBjb29sZXJzDQogICAgICDigKJMaWdodCBjb21tZXJjaWFsIGtpdGNoZW4gYXBwbGlhbmNlcw0KICAgICAg4oCiRnJlZXplcg0KICAgICAg4oCiV2luZSBjb29sZXI=</base64EncodedValue>
+</Verification>
+</VerificationPoint>

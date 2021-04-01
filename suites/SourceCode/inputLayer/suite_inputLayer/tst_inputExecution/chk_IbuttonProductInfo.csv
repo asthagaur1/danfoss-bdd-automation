@@ -1,0 +1,7 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+Common,KoolProg_infoButton,Click_Button,,,
+Common,SetParameters ProductInfo Image,verify_Image,,SetParametersProductInfoImage,
+Common,SetParameters WireDiag Image,verify_WireImage,,SetParametersProductInfoWireImage,
+Common,SetParameters ProductInfo Label,Text,,Dynamic_controllerVariant,
+Common,Product Description Label,verify_Text,,Description,
+Common,SetParameters ProductInfo Close Button,Click_Button,,,

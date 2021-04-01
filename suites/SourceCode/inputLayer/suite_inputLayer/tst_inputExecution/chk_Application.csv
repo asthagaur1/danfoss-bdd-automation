@@ -1,0 +1,4 @@
+controllerFamily,Object Name,Action,ToolTip/Name,applicationValue,Value1
+,,,,,
+ERC21x,Create_New_ApplicationCB,ComboBox_EnumExistenceCheck,,App0%%App1%%App2%%App3%%App4%%App5,
+ETC1Hx,Create_New_ApplicationCB,ComboBox_EnumExistenceCheck,,STANDARD%%GDM101%%FG_GDM%%DUALBAND102%%COND101%%WINECOOLER%%DUALDEFROST%%MEDICINECOOLER%%DOUBLEDOOR%%DFNOFROST100,

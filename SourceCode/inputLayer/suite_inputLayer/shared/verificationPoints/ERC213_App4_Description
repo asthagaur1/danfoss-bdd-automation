@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Mode       :Cooling 
+
+Description:Medium temperature ventilated refrigeration units
+with electrical defrost (by temperature)
+
+Temperature:(0 – 4 °C)
+
+Defrosttype: Electrical
+
+Defrostend :Temperature]]>
+<base64EncodedValue>TW9kZSAgICAgICA6Q29vbGluZyANCg0KRGVzY3JpcHRpb246TWVkaXVtIHRlbXBlcmF0dXJlIHZlbnRpbGF0ZWQgcmVmcmlnZXJhdGlvbiB1bml0cw0Kd2l0aCBlbGVjdHJpY2FsIGRlZnJvc3QgKGJ5IHRlbXBlcmF0dXJlKQ0KDQpUZW1wZXJhdHVyZTooMCDigJMgNCDCsEMpDQoNCkRlZnJvc3R0eXBlOiBFbGVjdHJpY2FsDQoNCkRlZnJvc3RlbmQgOlRlbXBlcmF0dXJl</base64EncodedValue>
+</Verification>
+</VerificationPoint>

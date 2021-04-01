@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[Mode       :Cooling 
+
+Description:Medium temperature without defrost 
+
+Temperature:(4 – 20 °C)
+
+Defrosttype: None 
+
+Defrostend :None]]>
+<base64EncodedValue>TW9kZSAgICAgICA6Q29vbGluZyANCg0KRGVzY3JpcHRpb246TWVkaXVtIHRlbXBlcmF0dXJlIHdpdGhvdXQgZGVmcm9zdCANCg0KVGVtcGVyYXR1cmU6KDQg4oCTIDIwIMKwQykNCg0KRGVmcm9zdHR5cGU6IE5vbmUgDQoNCkRlZnJvc3RlbmQgOk5vbmU=</base64EncodedValue>
+</Verification>
+</VerificationPoint>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[The ERC 112D VSC is an electronic refrigeration controller with an LED display especially developed for bottle coolers and commercial fridges and freezers with Variable speed compressor. It is particularly suited for OEM customers where  easy and reliable installation and high quality need to go hand in hand with flexibility.
+
+Input / Output highlights:
+• 4 configurable Inputs – 3 Analogue/digital and 1 Digital
+• 4 Configurable relay outputs and one 5V, 0-200Hz frequency signal for variable speed
+• Integrated LED display (3 digits)
+• Optional Buzzer
+
+Key Benefits:
+• Configurable inputs and outputs for different applications
+• Wide Voltage range (100 - 240 V ac, 50/60Hz. Switch mode power supply
+• Variable speed compressor control through PWM Frequency Signal
+• Adaptive defrost management
+• Smart Energy saving features
+• Configurable 4 Push buttons with integrated IP65 front design
+• 3 Level Password protection
+• Fully compatible with flammable refrigerants]]>
+<base64EncodedValue>VGhlIEVSQyAxMTJEIFZTQyBpcyBhbiBlbGVjdHJvbmljIHJlZnJpZ2VyYXRpb24gY29udHJvbGxlciB3aXRoIGFuIExFRCBkaXNwbGF5IGVzcGVjaWFsbHkgZGV2ZWxvcGVkIGZvciBib3R0bGUgY29vbGVycyBhbmQgY29tbWVyY2lhbCBmcmlkZ2VzIGFuZCBmcmVlemVycyB3aXRoIFZhcmlhYmxlIHNwZWVkIGNvbXByZXNzb3IuIEl0IGlzIHBhcnRpY3VsYXJseSBzdWl0ZWQgZm9yIE9FTSBjdXN0b21lcnMgd2hlcmUgIGVhc3kgYW5kIHJlbGlhYmxlIGluc3RhbGxhdGlvbiBhbmQgaGlnaCBxdWFsaXR5IG5lZWQgdG8gZ28gaGFuZCBpbiBoYW5kIHdpdGggZmxleGliaWxpdHkuDQoNCklucHV0IC8gT3V0cHV0IGhpZ2hsaWdodHM6DQrigKIgNCBjb25maWd1cmFibGUgSW5wdXRzIOKAkyAzIEFuYWxvZ3VlL2RpZ2l0YWwgYW5kIDEgRGlnaXRhbA0K4oCiIDQgQ29uZmlndXJhYmxlIHJlbGF5IG91dHB1dHMgYW5kIG9uZSA1ViwgMC0yMDBIeiBmcmVxdWVuY3kgc2lnbmFsIGZvciB2YXJpYWJsZSBzcGVlZA0K4oCiIEludGVncmF0ZWQgTEVEIGRpc3BsYXkgKDMgZGlnaXRzKQ0K4oCiIE9wdGlvbmFsIEJ1enplcg0KDQpLZXkgQmVuZWZpdHM6DQrigKIgQ29uZmlndXJhYmxlIGlucHV0cyBhbmQgb3V0cHV0cyBmb3IgZGlmZmVyZW50IGFwcGxpY2F0aW9ucw0K4oCiIFdpZGUgVm9sdGFnZSByYW5nZSAoMTAwIC0gMjQwIFYgYWMsIDUwLzYwSHouIFN3aXRjaCBtb2RlIHBvd2VyIHN1cHBseQ0K4oCiIFZhcmlhYmxlIHNwZWVkIGNvbXByZXNzb3IgY29udHJvbCB0aHJvdWdoIFBXTSBGcmVxdWVuY3kgU2lnbmFsDQrigKIgQWRhcHRpdmUgZGVmcm9zdCBtYW5hZ2VtZW50DQrigKIgU21hcnQgRW5lcmd5IHNhdmluZyBmZWF0dXJlcw0K4oCiIENvbmZpZ3VyYWJsZSA0IFB1c2ggYnV0dG9ucyB3aXRoIGludGVncmF0ZWQgSVA2NSBmcm9udCBkZXNpZ24NCuKAoiAzIExldmVsIFBhc3N3b3JkIHByb3RlY3Rpb24NCuKAoiBGdWxseSBjb21wYXRpYmxlIHdpdGggZmxhbW1hYmxlIHJlZnJpZ2VyYW50cw==</base64EncodedValue>
+</Verification>
+</VerificationPoint>

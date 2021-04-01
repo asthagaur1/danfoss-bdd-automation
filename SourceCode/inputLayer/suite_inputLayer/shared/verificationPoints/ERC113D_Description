@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VerificationPoint type="ObjectProperties" version="4">
+<Description/>
+<Verification object="txtproductDescription_Label" property="text" type="char" valueType="Value"><![CDATA[The ERC113D is a multipurpose refrigeration controller that includes temperature and defrost management with advanced energy saving feature, cutting the overall total cost level and meets the requirements of today´s advanced commercial refrigeration applications. ERC 113 can be integrated with a Remote Display or a Remote Spindle to make it uniquely versatile.
+ERC 113 with Danfoss Remote display offers an advantage in Cassette design bottle coolers where the display is mounted on the canopy, but the controller resides in the compressor compartment. For many commercial fridge and freezer applications, this split solution offers a high degree of flexibility. The optional Danfoss remote spindle (same look and feel and mechanical thermostat) offers a cost effective solution for those customers who don’t need a display and buttons.
+With configurable inputs and outputs, ERC 113 can also be used for heating applications
+ 
+Input/ Output highlights:
+   •5 inputs, 4 configurable and 1 digital
+   •4 configurable  relay outputs (16 Amps, 8 Amps, 8Amps, 8 Amps)
+ 
+Key benefits:
+  • Wide voltage range ( 100VAC to 240VAC, 50/60 Hz), automatic switch mode power supply
+  • Compressor management and protection
+  • Adaptive defrost Management 
+  • Defrost heater control/ smart fan control/ cabinet light control/ temperature alarm buzzer output
+  • 3 level password protection
+  • Fully compatible with flammable refrigerants 
+  • Improved energy saving features
+  • Optional remote display and spindle]]>
+<base64EncodedValue>VGhlIEVSQzExM0QgaXMgYSBtdWx0aXB1cnBvc2UgcmVmcmlnZXJhdGlvbiBjb250cm9sbGVyIHRoYXQgaW5jbHVkZXMgdGVtcGVyYXR1cmUgYW5kIGRlZnJvc3QgbWFuYWdlbWVudCB3aXRoIGFkdmFuY2VkIGVuZXJneSBzYXZpbmcgZmVhdHVyZSwgY3V0dGluZyB0aGUgb3ZlcmFsbCB0b3RhbCBjb3N0IGxldmVsIGFuZCBtZWV0cyB0aGUgcmVxdWlyZW1lbnRzIG9mIHRvZGF5wrRzIGFkdmFuY2VkIGNvbW1lcmNpYWwgcmVmcmlnZXJhdGlvbiBhcHBsaWNhdGlvbnMuIEVSQyAxMTMgY2FuIGJlIGludGVncmF0ZWQgd2l0aCBhIFJlbW90ZSBEaXNwbGF5IG9yIGEgUmVtb3RlIFNwaW5kbGUgdG8gbWFrZSBpdCB1bmlxdWVseSB2ZXJzYXRpbGUuDQpFUkMgMTEzIHdpdGggRGFuZm9zcyBSZW1vdGUgZGlzcGxheSBvZmZlcnMgYW4gYWR2YW50YWdlIGluIENhc3NldHRlIGRlc2lnbiBib3R0bGUgY29vbGVycyB3aGVyZSB0aGUgZGlzcGxheSBpcyBtb3VudGVkIG9uIHRoZSBjYW5vcHksIGJ1dCB0aGUgY29udHJvbGxlciByZXNpZGVzIGluIHRoZSBjb21wcmVzc29yIGNvbXBhcnRtZW50LiBGb3IgbWFueSBjb21tZXJjaWFsIGZyaWRnZSBhbmQgZnJlZXplciBhcHBsaWNhdGlvbnMsIHRoaXMgc3BsaXQgc29sdXRpb24gb2ZmZXJzIGEgaGlnaCBkZWdyZWUgb2YgZmxleGliaWxpdHkuIFRoZSBvcHRpb25hbCBEYW5mb3NzIHJlbW90ZSBzcGluZGxlIChzYW1lIGxvb2sgYW5kIGZlZWwgYW5kIG1lY2hhbmljYWwgdGhlcm1vc3RhdCkgb2ZmZXJzIGEgY29zdCBlZmZlY3RpdmUgc29sdXRpb24gZm9yIHRob3NlIGN1c3RvbWVycyB3aG8gZG9u4oCZdCBuZWVkIGEgZGlzcGxheSBhbmQgYnV0dG9ucy4NCldpdGggY29uZmlndXJhYmxlIGlucHV0cyBhbmQgb3V0cHV0cywgRVJDIDExMyBjYW4gYWxzbyBiZSB1c2VkIGZvciBoZWF0aW5nIGFwcGxpY2F0aW9ucw0KIA0KSW5wdXQvIE91dHB1dCBoaWdobGlnaHRzOg0KICAg4oCiNSBpbnB1dHMsIDQgY29uZmlndXJhYmxlIGFuZCAxIGRpZ2l0YWwNCiAgIOKAojQgY29uZmlndXJhYmxlICByZWxheSBvdXRwdXRzICgxNiBBbXBzLCA4IEFtcHMsIDhBbXBzLCA4IEFtcHMpDQogDQpLZXkgYmVuZWZpdHM6DQogIOKAoiBXaWRlIHZvbHRhZ2UgcmFuZ2UgKCAxMDBWQUMgdG8gMjQwVkFDLCA1MC82MCBIeiksIGF1dG9tYXRpYyBzd2l0Y2ggbW9kZSBwb3dlciBzdXBwbHkNCiAg4oCiIENvbXByZXNzb3IgbWFuYWdlbWVudCBhbmQgcHJvdGVjdGlvbg0KICDigKIgQWRhcHRpdmUgZGVmcm9zdCBNYW5hZ2VtZW50IA0KICDigKIgRGVmcm9zdCBoZWF0ZXIgY29udHJvbC8gc21hcnQgZmFuIGNvbnRyb2wvIGNhYmluZXQgbGlnaHQgY29udHJvbC8gdGVtcGVyYXR1cmUgYWxhcm0gYnV6emVyIG91dHB1dA0KICDigKIgMyBsZXZlbCBwYXNzd29yZCBwcm90ZWN0aW9uDQogIOKAoiBGdWxseSBjb21wYXRpYmxlIHdpdGggZmxhbW1hYmxlIHJlZnJpZ2VyYW50cyANCiAg4oCiIEltcHJvdmVkIGVuZXJneSBzYXZpbmcgZmVhdHVyZXMNCiAg4oCiIE9wdGlvbmFsIHJlbW90ZSBkaXNwbGF5IGFuZCBzcGluZGxl</base64EncodedValue>
+</Verification>
+</VerificationPoint>

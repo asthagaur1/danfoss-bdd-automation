@@ -1,0 +1,4 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+"EKE1x,AK-CC55",Check_For_New_Wizard_CheckBox,CheckExistenceOfObject,,,
+"EKE1x,AK-CC55",Check_For_New_Wizard_CheckBox,Text,,Use a wizard for controller configuration,
+"EKE1x,AK-CC55",Check_For_New_Wizard_CheckBox,UncheckCheckBox,,,

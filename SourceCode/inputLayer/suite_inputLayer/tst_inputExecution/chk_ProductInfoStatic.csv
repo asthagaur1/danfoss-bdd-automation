@@ -1,0 +1,5 @@
+Controller family,Object Name,Action,ToolTip/Name,Value,Value1
+Common,New Project Window Controller Image,verify_Image,,SetParametersProductInfoImage,
+Common,New Project Window Controller WireImage,verify_WireImage,,SetParametersProductInfoWireImage,
+Common,New Project Product Label,Text,,Dynamic_controllerVariant,
+Common,Product Description Label,verify_Text,,Description,

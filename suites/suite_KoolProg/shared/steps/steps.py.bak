@@ -1,0 +1,764 @@
+global keywords
+
+
+def Close_KoolProg(context):
+    keywords.report_log("Closing KoolProg application...")
+
+@Step("KoolProg Had Opened")
+def step(context):
+    keywords.report_log("Opening koolprog application")
+    context.userData = dict()
+
+@Step("KoolProg Main Window Is Visible")
+def step(context):
+    keywords.check_main_window_visible()
+
+@Step("KoolProg should contain Main Window Elements")
+def step(context):
+    keywords.check_koolprog_version()
+
+@Step("KoolProg Opened With New Project Window")
+def step(context):
+    keywords.keyword_check_and_open_new_project_window()
+
+@Step("KoolProg New Project Window Is Visible")
+def step(context):
+    keywords.new_project_window_is_visible()
+
+@Step("Get Controller Details From Variable")
+def step(context):
+    
+    context.userData["SelectedIndex"] = keywords.keyword_get_user_data_as_variable()
+    if context.userData["SelectedIndex"] is None:
+        context.userData["SelectedIndex"] = [251]
+    keywords.report_log("context.userData={}".format(context.userData["SelectedIndex"]))
+
+@Step("Verify Controller Details From User Data")
+def step(context):
+    
+    for i in context.userData["SelectedIndex"]:
+        details = keywords.get_controller_details_from_index(i)
+        variant = details['controllerVariant']
+        family = keywords.get_controllerFamily_from_controllerVariant(variant)
+        keywords.select_controller_in_new_project_window(family, variant)
+        keywords.Keyword_check_product_image_description_wirediagram_in_controller_selection_window(variant, family)
+        keywords.new_prj_window_click_next_button()
+        keywords.keyword_set_product_details(details)
+        app = details['controllerApplication']
+        keywords.keyword_check_product_image_description_wirediagram_in_app_selection_window(variant,app)
+        keywords.new_prj_window_click_back_button()
+    keywords.new_prj_window_click_close_button()
+
+@Step("KoolProg New Project Window Is Open")
+def step(context):
+    keywords.nav_goto_newproject_controller_selection_window_from_home_screen()
+
+@Step("Select Controller Variant In New Project Window And Verify Next Button Is Visible, Controller Name Label, Controller Image, Circuit And Description In New Project Window")
+def step(context):
+    keywords.keyword_validate_newproject_window_respective_controllers()
+
+@Step("Test Navigation method")
+def step(context):
+    keywords.keyword_test_navigation()
+
+@Step("Go To Controller Details Selection Window")
+def step(context):
+    keywords.new_prj_window_click_next_button()
+
+@Step("Select A Random Controller")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData, keywords.keyword_select_a_random_controller())
+
+
+@Step("Verify Project Name Is Empty")
+def step(context):
+    keywords.new_prj_window_Chk_project_name_is_empty()
+
+@Step("Click Finish Button In New Project Window")
+def step(context):
+    keywords.new_prj_window_click_finish_button()
+    keywords.keyword_sleep(20)
+
+@Step("Verify Popup Message Should Come As '|any|'")
+def step(context,message_string):
+    keywords.keyword_sleep(1)
+    keywords.keyword_verify_popup_msg_in_window(message_string, "PROJECT_WINDOW")
+
+@Step("KoolProg should contain New Project Window Elements")
+def step(context):
+        keywords.keyword_check_new_project_window_elements()
+
+@Step("Verify, BACK, FINISH, CANCEL and Next button will enable based on the selected controller")
+def step(context):
+        keywords.keyword_Verify_BACK_FINISH_CANCEL_and_Next_button_will_enable_based_on_the_selected_controller()
+
+@Step("Verify Project Name should Accept Only |integer| Characters")
+def step(context, length):
+    keywords.keyword_project_name_length_validation(length)
+
+@Step("Set Project Name With '|integer|' Characters Length")
+def step(context,len):
+    keywords.keyword_set_random_project_name_for_given_length(len)
+    
+@Step("Verify Give Your Project Filename and Description, Project Name And Description Label Are Visible")
+def step(context):
+    keywords.keyword_check_new_project_details_window_label_are_visible()
+    
+@Step("Verify Textbox of Project Name And Project Description Is Visible")
+def step(context):
+    keywords.keyword_check_project_name_and_project_description_textbox_are_visible()
+ 
+@Step("Verify Text Of Back And Cancel Button")
+def step(context):
+    keywords.keyword_check_back_and_cancel_button_text()
+    
+@Step("KoolProg should contain New Project Window controller Family List")
+def step(context):
+    keywords.keyword_check_new_project_window_controllerFamily_List()
+
+@Step("Verify all controller variant comes under controller family.")
+def step(context):
+    keywords.keyword_check_new_project_window_controllerVariant_List()
+
+
+@Step("Enter Special Characters In The Project Name Field And Click Ok Button In The Popup Message Window.")
+def step(context):
+    keywords.keyword_Enter_special_characters_in_the_Project_Name_field_and_click_Ok_button_in_the_popup_message_Window()
+
+@Step("Click Ok Button In Popup Window In New Project Details Selection Window")
+def step(context):
+    keywords.popup_messagebox_window_click_ok_button("HOME_WINDOW")
+        
+@Step("Verify, Blinking Cursor In Project Name Text Box In New Project Details Selection Window")
+def step(context):
+    keywords.new_project_details_selection_window_cursor_in_text_box_of_project_name_should_blink()
+        
+@Step("Enter Project Name,Project Description And For Various Controller Selection, Verify, Project Name And Project Description Display The Same Content Entered.")
+def step(context):
+    keywords.keyword_enter_project_name_and_project_description_and_verify_the_content_displayed_for_various_controller_selection()
+
+@Step("Set Project Description Statement As '|integer|' Characters Length")
+def step(context,len):
+    keywords.keyword_set_random_project_description_for_given_length(len)
+    
+@Step("Verify Project Description should Accept Only |integer| Characters")
+def step(context,len):
+    keywords.keyword_project_description_length_validation(len)
+    
+@Step("KoolProg Set Parameter Window Is Visible")
+def step(context):
+    keywords.set_param_window_is_visible()
+    
+@Step("Verify, Toolip Of New Button")
+def step(context):
+    keywords.keyword_set_param_window_check_new_button_tooltip_text()
+   
+@Step("Go To Set Parameter Window")
+def step(context):
+    keywords.click_set_parameter_button() 
+    keywords.set_param_window_is_visible()
+ 
+@Step("Write Project Name")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData, keywords.keyword_write_project_name())
+    
+@Step("Write Project Description")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData, keywords.keyword_write_project_description())
+    keywords.keyword_save_userdata(context.userData)
+    
+@Step("Check Textbox for Project Description Is Empty")
+def step(context):
+    keywords.check_project_description_textbox_empty()
+
+@Step("Random Controller Is Selected For New Project")
+def step(context):
+    keywords.nav_goto_newproject_controller_selection_window_from_home_screen()
+    context.userData = keywords.keyword_select_a_random_controller()
+    keywords.new_prj_window_click_next_button()
+
+@Step("Uncheck The Quick Wizard Option If Selected Controller Has It")
+def step(context):
+    keywords.keyword_uncheck_wizard_option(context.userData['controllerFamily'])
+
+@Step("Project Is Complete With Project Name And Description")
+def step(context):
+    keywords.keyword_set_random_project_name_for_given_length()
+    keywords.keyword_set_random_project_description_for_given_length()
+
+@Step("The Project Window Is Visible")
+def step(context):
+    keywords.keyword_sleep(5)
+    keywords.new_project_window_is_visible(False)
+    keywords.project_window_visible() 
+    
+@Step("Controller Is Selected From Existing Project")
+def step(context):
+    context.userData = keywords.keyword_get_userdata()
+    keywords.nav_goto_newproject_controller_selection_window_from_home_screen()
+    keywords.select_controller_in_new_project_window(context.userData["controllerFamily"], context.userData["controllerVariant"])
+    keywords.new_prj_window_click_next_button()
+    
+@Step("Write Project Name And Description From Existing Project")
+def step(context):
+    keywords.create_new_project_set_text_in_project_name_txt_box(context.userData["project_name"])
+    keywords.create_new_project_set_text_in_project_description(context.userData["project_description"])
+    
+@Step("Verify Project Name And Project Description Displays The Content That Is Entered Before")
+def step(context):
+    keywords.keyword_verify_content_in_project_name_and_project_description(context.userData["project_name"],context.userData["project_description"])
+
+@Step("Uncheck The Quick Wizard Option If Applicable")
+def step(context):
+    keywords.keyword_uncheck_wizard_option(context.userData['controllerFamily']) 
+
+@Step("Click On SetParameter Button And SetParameter Window Is Visible")
+def step(context):
+    keywords.nav_open_setparameters_window_from_home_screen()
+    
+@Step("Click Close Button In Setparameter Window")
+def step(context):
+    keywords.keyword_set_param_check_tooltip_text_and_click_close_button()
+
+@Step("Verify Home Window Should Come")
+def step(context):
+    keywords.check_main_window_visible()
+
+@Step("New Project Window Had Opened")
+def step(context):
+    keywords.nav_goto_newproject_controller_selection_window_from_home_screen()
+
+@Step("Click Close Button In New Project Window")
+def step(context):
+    keywords.keyword_new_project_win_check_tooltip_text_and_click_close_button()
+
+@Step("Click Cancel Button In New Project Window")
+def step(context):
+    keywords.new_prj_window_click_cancel_button()
+
+@Step("Verify Popup Window Is Visible")
+def step(context):
+    keywords.popup_messagebox_window_is_visible()
+    
+@Step("Select Controller Variant In New Project Window And Check List Of Applications ,Codenumber ,Productversion With Combinations")
+def step(context):
+    keywords.keyword_check_applications_codenumber_productversion_with_combinations()
+
+@Step("Click No Button In Popup Window In New Project Details Selection Window")
+def step(context):
+    keywords.popup_messagebox_window_click_no_button()
+
+@Step("Click Yes Button In Popup Window In New Project Details Selection Window")
+def step(context):
+    keywords.popup_messagebox_window_click_yes_button()
+    
+@Step("Verify menu bar icons enable and disable in project window")
+def step(context):
+    keywords.keyword_prj_window_chk_menu_bar_icons_Enable_Disable()
+    
+@Step("Verify, Project Details Label Should Come")
+def step(context):
+    keywords.keyword_project_win_project_details_label(context.userData['controllerFamily'])
+    
+@Step("Select A Controller From Input Sheet Given As Yes")
+def step(context): 
+    for i in context.userData["SelectedIndex"]:
+        details = keywords.get_controller_details_from_index(i)
+        variant = details['controllerVariant']
+        family = keywords.get_controllerFamily_from_controllerVariant(variant)
+        keywords.select_controller_in_new_project_window(family, variant)
+        keywords.new_prj_window_click_next_button()
+        keywords.keyword_set_product_details(details)
+        context.userData = keywords.keyword_merge_dict(context.userData,details)
+
+@Step("Verify Project Details In Project Window")
+def step(context):
+    keywords.keyword_project_win_check_project_details_label_value(context.userData)
+    
+@Step("verify grid icons in the  project window are enable")
+def step(context):
+    keywords.prj_window_chk_grid_icons_enable()
+    
+@Step("Verify the Project Name and Description in project window")
+def step(context):
+    keywords.keyword_prj_window_chk_prj_name_prj_desc_text(context.userData["project_name"],context.userData["project_description"])
+
+@Step("Verify Project File Extension In Open Window")
+def step(context):   
+    keywords.keyword_check_filter_text_in_window_dialog("OPEN")
+
+@Step("Open Project File In Specific Path")
+def step(context):
+    keywords.keyword_open_window_open_project_file()
+
+@Step("Verify Info Button Will Be Enable")
+def step(context):
+    keywords.prj_window_chk_info_button_enable()
+    
+@Step("Verify Product Information Window Will Be Enable And Product Information Window Should Have Controller Name Label, Controller Image, Circuit And Description")
+def step(context):
+    keywords.keyword_prj_window_verify_product_info_window(context.userData['controllerVariant'])
+   
+@Step("Click On Open Button In Set Parameters Window")
+def step(context):
+    keywords.set_param_window_click_open_button()
+
+@Step("Open Window Is Visible")
+def step(context):
+    keywords.Window_Dialog_is_enabled("OPEN")
+
+@Step("Click On The Setting Icon Button In The Main Window")
+def step(context):
+    keywords.keyword_sleep(5)
+    keywords.click_settings_icon_in_homepage_window()
+
+@Step("Click Cancel Button In Preference Window")
+def step(context):
+    keywords.click_cancel_button_in_preference_window()
+
+@Step("Open Project File In Default Path And enter unavailable File Name")
+def step(context):
+    keywords.keyword_open_window_open_unavailable_file_in_default_path()
+    
+@Step("Click Open Button in Open Window")
+def step(context):
+    keywords.Window_Dialog_click_open_button()
+
+@Step("Verify Popup Message For Unavailable File Displays")
+def step(context):
+    keywords.Window_Dialog_check_unavailable_file_pop_up()
+
+@Step("Click On Open Button In Project Window")
+def step(context):
+    keywords.prj_window_click_on_open_button()
+    
+@Step("Click On The Open Window Cancel Button")
+def step(context):
+    keywords.Window_Dialog_click_cancel_button("OPEN")
+
+@Step("Get filepath from open window and Rename the existing file with new valid file name")
+def step(context):
+    keywords.keyword_get_filepath_from_open_window_rename_valid_filename(context.userData["project_name"],context.userData['controllerFamily'],"OPEN")
+    
+@Step("Get Filepath From Open Window And Rename The Existing File With New Invalid File Name")
+def step(context):
+    keywords.keyword_copy_rename_Invalid_filename_and_Open_file(context.userData["PROJECT_WORKING_DIR"],context.userData["project_name"],context.userData['controllerFamily'],"OPEN")
+    
+@Step("Get last saved filepath and valid filename and open the newly copied file")
+def step(context):
+    keywords.keyword_copy_rename_valid_filename_and_Open_file(context.userData["PROJECT_WORKING_DIR"],context.userData["project_name"],context.userData['controllerFamily'],"OPEN")
+
+#@Step("Get last Saved Filepath And Invalid Filename And Open The Newly Copied File")
+@Step("Get Saved Filepath Which Have Invalid Filename And Open It")
+def step(context):
+#     context.userData =keywords.keyword_get_temp_saved_filepath_filename()
+    keywords.keyword_copy_rename_Invalid_filename_and_Open_file(context.userData["PROJECT_WORKING_DIR"],context.userData["project_name"],context.userData["controllerFamily"],"OPEN")   
+
+@Step("Verify the outside changed file not supported pop-pop Is Visible")
+def step(context):
+    keywords.validate_common_open_related_popup()
+    
+@Step("Click Ok Button In Popup Window On Home Window")
+def step(context):
+    keywords.popup_messagebox_window_click_ok_button("HOME_WINDOW")
+
+@Step("Click Ok Button In Popup Window On Project Window")
+def step(context):
+    keywords.popup_messagebox_window_click_ok_button("PROJECT_WINDOW")
+    
+@Step("Open the created same file in project window")
+def step(context):
+    keywords.open_created_samefile_in_prj_win(context.userData,context.userData["project_name"],context.userData['controllerFamily'],"OPEN")
+    
+@Step("Validate the project already opened pop message")
+def step(context):
+    keywords.validate_common_open_related_popup()
+
+@Step("Click ok button in pop message Popup Window")
+def step(context):
+    keywords.popup_messagebox_window_click_OK_button()
+    
+@Step("Validate Specile Charcters Not Allowed Pop-Up")
+def step(context):
+    keywords.popup_messagebox_window_is_visible()
+
+@Step("Enter A Unavailable Filename And Click Open")
+def step(context):
+    keywords.keyword_open_window_open_unavailable_file_in_default_path()
+    keywords.open_save_window_click_open_button()
+
+@Step("Verify File Not Found Popup Message Will Come")
+def step(context):
+    keywords.check_open_window_popup_dialog_is_enabled_for_unavailable_file()
+
+@Step("Save the project in Temp Location Using Save As Option")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                            keywords.keyword_save_project_in_temp_location(context.userData))
+    keywords.keyword_sleep(5)
+    keywords.popup_messagebox_window_is_visible("PROJECT_WINDOW")
+    keywords.popup_messagebox_window_check_message_text("Saved Successfully", "PROJECT_WINDOW")
+    keywords.popup_messagebox_window_click_ok_button("PROJECT_WINDOW")
+
+@Step("Create A project From AKCC Controller")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                        keywords.keyword_create_random_AK_CC55_controller_project())
+    keywords.report_log("Controller details ={}".format(context.userData))
+    
+@Step("Open Created Project")
+def step(context):
+    keywords.keyword_open_current_project_in_project_window(context.userData)
+
+@Step("Add Filters *.cbk in Open Window")
+def step(context):
+    keywords.keyword_open_save_window_add_file_filters_for_given_name("cbk")
+
+@Step("Verify Open Window Shows Filtered Files Only")
+def step(context):
+    keywords.keyword_open_window_file_extension("cbk")
+
+@Step("Go To Saved Location From Preference Window")
+def step(context):
+    keywords.keyword_open_window_go_to_given_location()
+    
+@Step("Open Created Project In Set Parameter Window")
+def step(context):
+    keywords.keyword_open_current_project_in_project_window(context.userData)
+
+@Step("Go To Home Window From Project Window")
+def step(context):
+    keywords.keyword_prj_window_click_home_button()
+    keywords.check_main_window_visible()
+
+@Step("Verify Project Details Will Be Available In Project Window")
+def step(context):
+    keywords.keyword_sleep(1) 
+    keywords.keyword_verify_project_details_of_current_project(context.userData)
+     
+@Step("New Project Is Created For Random Controller")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                        keywords.keyword_create_prj_with_a_random_controller())
+    keywords.keyword_sleep(5)
+    
+
+@Step("Get Koolprog Working Path From Preference Window And Save it")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                        keywords.keyword_set_preference_path_as_working_directory())
+    keywords.keyword_sleep(1)    
+
+@Step("Verify Open Window Should Open With Temp Path")
+def step(context):
+    keywords.keyword_verify_temp_path_in_open_dialog(context.userData)
+
+@Step("Opening Saved Project From Temp Path")
+def step(context):
+    keywords.keyword_setparameter_open_project_from_temp_path(context.userData)
+    keywords.project_window_visible(60)
+    keywords.keyword_sleep(10)
+
+@Step("Go To Temp Folder Location But Dont Open Project")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                                                   keywords.keyword_click_saveas_button_but_dont_save_project_in_temp_location(context.userData))
+
+@Step("Verify Open Window Should Not Open With Temp Path")
+def step(context):
+    keywords.keyword_verify_temp_path_not_in_open_dialog(context.userData)
+
+@Step("Go To Temp Directory In Open File Dialog")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+    keywords.keyword_write_temp_path_in_open_dialog(context.userData))
+
+@Step("Click Cancel Button In Open File Dialog")
+def step(context):
+    keywords.Window_Dialog_click_cancel_button("OPEN")
+
+@Step("Verify Open Window Should Not Open Dialog With Temp Path")
+def step(context):
+    keywords.keyword_verify_temp_path_not_in_open_dialog(context.userData)
+
+@Step("Save The Project In Temp Location Using File Copy")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                                                   keywords.keyword_copy_project_to_temp_directory(context.userData))
+    keywords.keyword_sleep(10)
+
+@Step("Goto Temporary Directory In Open Dialog Window")
+def step(context):
+    keywords.keyword_go_to_temp_directory_opendialog(context.userData["TEMP_DIR"])
+
+@Step("Get Integer Parameters From Database With Random Value")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                                                   keywords.keyword_get_database_integer_parameters_with_values(context.userData))
+
+@Step("Modify Parameter Values In Duplicate Project File")
+def step(context):
+    keywords.keyword_modify_parameter_values_in_duplicate_project_file(context.userData)
+                                                       
+
+@Step("New Project Is Created For Random Controller Expect |any|")
+def step(context, family):
+    context.userData = keywords.keyword_merge_dict(context.userData,
+                        keywords.keyword_select_a_random_controller(family))
+
+@Step("Project Window Is Visible")
+def step(context):
+    keywords.project_window_visible(60)
+    keywords.keyword_sleep(10)
+
+@Step("Verify Open Window")
+def step(context):
+    keywords.Window_Dialog_is_enabled("OPEN")
+
+@Step("Write Project File From Open Window")
+def step(context):
+    keywords.keyword_open_window_open_project_file()
+
+@Step("Verify Open Window Should Not Visible")
+def step(context):
+    keywords.Window_Dialog_PopUp_visible(visible=False)
+    
+@Step("Enter A Unavailable Filename")
+def step(context):
+    keywords.keyword_open_window_open_unavailable_file_in_default_path(context.userData)
+
+
+
+@Step("Browse The File That Is Saved In Temporary Location")
+def step(context):
+    keywords.keyword_browse_the_file_that_is_saved_in_temporary_location(context.userData["TEMP_DIR"],context.userData["project_name"])
+
+
+
+
+@Step("Click Ok Button In Open Popup Window")
+def step(context):
+    keywords.Window_Dialog_PopUp_Click_Ok()
+    
+@Step("Verify, Toolip Of Close Button")
+def step(context):
+    keywords.keyword_set_param_window_check_close_button_tooltip_text()
+
+@Step("Verify, Toolip Of Open Button")
+def step(context):
+    keywords.keyword_set_param_window_check_open_button_tooltip_text()
+
+@Step("Verify, Toolip Of Import Controller Model Button")
+def step(context):
+    keywords.keyword_set_param_window_compare_import_controller_model_button_tooltip()
+
+@Step("Verify, Toolip Of Import Setting From Controller Button")
+def step(context):
+    keywords.keyword_set_param_window_compare_import_setting_from_controller_button_tooltip()
+
+
+@Step("Get Recent File List From Set Parameter Window")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,keywords.keyword_set_param_window_get_open_recent_project_files_tooltip_list())
+
+@Step("Check The Recent File ToolTip In Set Parameter Window")
+def step(context):
+    keywords.keyword_check_the_recent_file_tooltip(context.userData)
+  
+@Step("Check Preference Window Is Not Visible")
+def step(context):
+    keywords.check_preference_window_is_visible(False)
+
+  
+@Step("Preference Window Is Visible")
+def step(context):
+    keywords.check_preference_window_is_visible()
+    
+@Step("Verify Text Of All the Buttons, Headings, Lables In Set Parameter Window")
+def step(context):
+    keywords.keyword_check_set_paramter_win_buttons_header_label_text()
+     
+
+@Step("Verify Controller Family With Variant Is Remain Selected")
+def step(context):
+    keywords.new_prj_window_verify_given_controller_family_with_variant_is_selected(context.userData["controllerFamily"], context.userData["controllerVariant"])
+
+@Step("Click Back Button In New Project Window")
+def step(context):
+    keywords.new_prj_window_click_back_button()
+
+@Step("Check New Project Header Text")
+def step(context):
+        keywords.keyword_check_new_project_header_text()
+        
+@Step("Check New Project Select Controller Model Label Text")
+def step(context):
+        keywords.keyword_check_new_project_select_controller_model_label_text()
+
+@Step("Check Close Button ToolTip In New Project Window")
+def step(context):
+    keywords.keyword_create_new_project_check_close_button_tooltip()
+
+
+@Step("Verify Project Name Should Not Accept Special Characters")
+def step(context):
+    keywords.keyword_verify_project_name_should_not_accept_special_characters("HOME_WINDOW")
+    
+@Step("Check if Project Name,Description,Give your project filename and description labels are available")
+def step(context): 
+    keywords.keyword_check_project_name_and_description_labels()
+    
+@Step("Check Cancel Button Is Visible In Controller Details Selection Window")
+def step(context): 
+    keywords.new_prj_window_cancel_button_is_visible()
+   
+@Step("Check Back Button Is Visible In Controller Details Selection Window")
+def step(context): 
+    keywords.new_prj_window_back_button_is_visible()
+     
+@Step("Check Finish Button Is Visible In Controller Details Selection Window")
+def step(context): 
+    keywords.new_prj_window_finish_button_is_visible()
+    
+@Step("Verify Project Description Should Not Accept Special Characters")
+def step(context):
+    keywords.keyword_verify_project_description_should_not_accept_special_characters("HOME_WINDOW")
+
+@Step("Change Integer Parameter Values")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData, keywords.keyword_get_database_integer_parameters_with_values(context.userData))
+    keywords.keywords_set_integer_parameter_values_in_datagrid(context.userData["Parameters"],context.userData["controllerFamily"])
+
+
+########################### Save as Window ###############################
+
+@Step("Click On Saveas Button In Project Window")
+def step(context):
+    keywords.keyword_prj_window_click_saveas_button(context.userData)
+    
+
+@Step("Verify Saveas Window In Project Window")
+def step(context): 
+    keywords.Window_Dialog_is_enabled("Saveas")
+    
+@Step("Click On Save Button In SaveAs Window")
+def step(context):
+    keywords.Window_Dialog_click_save_button("SAVEAS")
+    keywords.keyword_sleep(10)
+########################### Save as Window ###############################
+
+@Step("Check Saved Successfully Popup Is Displayed")
+def step(context):
+    keywords.popup_messagebox_window_check_message_text("Saved Successfully","PROJECT_WINDOW")
+    
+@Step("Write The Default Project Name In SaveAs Window")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,keywords.keyword_write_the_created_project_file_name_dialog(context.userData,"SAVEAS"))
+
+@Step("Click Ok Button In Saved Successfully Popup Window")
+def step(context):   
+    keywords.popup_messagebox_window_click_ok_button("PROJECT_WINDOW")
+   
+@Step("Verify Saved file With Code Number Project Name Should Display If Applicable")
+def step(context):
+    keywords.keyword_check_saved_file_with_code_number_project_name_should_open_if_applicable(context.userData)
+
+@Step("Changed Value Should Show In DataGrid With Appropriate Color Change")
+def step(context):
+    keywords.keyword_changed_value_should_show_in_project_dataGrid_with_pink_textBox_and_grey_circle_inputs(context.userData["controllerFamily"],context.userData["Parameters"],"Not Pink","Grey")
+
+@Step("Write The Different Project Name Instead Of Created Project Name In SaveAs Window")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,keywords.keyword_write_the_different_project_name_instead_of_created_project_name(context.userData,"SAVEAS"))
+
+@Step("Verify The File Saved With Different Project Name Should Display")
+def step(context):
+    keywords.keyword_check_saved_file_with_different_project_name_should_open(context.userData)
+
+@Step("Write The Created Project File With Default Path In Dialog")
+def step(context):
+    keywords.keyword_open_created_file_in_default_path(context.userData)
+    
+@Step("Open Recent Project From Set Parameter Window")
+def step(context):
+    keywords.keyword_select_recent_project_file(context.userData["project_name"])
+
+
+####################### Project Window #######################
+
+@Step("Verify Menu Bar Icons Visible In Project Window")
+def step(context):
+    keywords.keyword_prj_window_chk_menu_bar_icons_visible()
+    
+@Step("Verify Menu Bar Icons Enable And Disable In Project Window")
+def step(context):
+    keywords.keyword_prj_window_chk_menu_bar_icons_Enable_Disable()
+    
+@Step("Verify Set Parameter Label In Project Window")
+def step(context):
+    keywords.keyword_prj_window_chk_set_parameter_label()
+
+@Step("Verify Project Name Label Should Be Visible In Project Window")
+def step(context):
+    keywords.keyword_prj_window_chk_prj_name_label()
+
+@Step("Verify Search And View More Is Visible")
+def step(context):
+    keywords.keyword_prj_window_verifiy_search_and_viewmore_button_visible()
+    
+@Step("Verify Search And View More Are Enable")
+def step(context):
+    keywords.keyword_prj_window_verifiy_search_and_viewmore_button_enable()
+    
+    
+####################### Project Window #######################
+
+############################# Project Description Window #########################
+@Step("Verify Popup Message Should Come As '|any|' On Home Window")
+def step(context,message_string):
+    keywords.keyword_sleep(1)
+    keywords.keyword_verify_popup_msg_in_window(message_string, "HOME_WINDOW")
+    
+############################# Project Description Window #########################
+
+@Step("Changed Value Should Show In DataGrid With Pink TextBox And Grey Color Circle")
+def step(context):
+    keywords.keyword_changed_value_should_show_in_project_dataGrid_with_pink_textBox_and_grey_circle_inputs(context.userData["controllerFamily"],context.userData["Parameters"],"Pink","Grey")
+
+@Step("Check The Saved File Should Display In The Set Parameter Window Recent Project List")
+def step(context):
+    keywords.keyword_check_the_saved_file_displays_in_recent_project_list_in_setParameter_Window(context.userData)
+
+
+<<<<<<< HEAD
+
+
+=======
+@Step("Click On Ok Button In Window Dialog PopUp")
+def step(context):
+    keywords.Window_Dialog_PopUp_Click_Ok()
+
+@Step("Verify Window Dialog Popup Is Visible")
+def step(context):
+    keywords.Window_Dialog_PopUp_visible()
+@Step("Verify If The Entered Project Name With Special Characters Is Displayed In Edit Box Of The SaveAs Dialog")
+def step(context):
+    keywords.keyword_verify_project_name_with_spcl_char_is_displayed_in_Dialog_EditBox(context.userData["ProjectName_With_SpecialCharacters"],"SAVEAS")
+
+@Step("Write Project Name Including Special Characters")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,keywords.write_project_name_as_special_characters("SAVEAS"))
+
+
+@Step("Write Project Name Including Special Characters Along With The Path")
+def step(context):
+    context.userData = keywords.keyword_merge_dict(context.userData,keywords.write_project_name_as_special_characters_along_with_path("SAVEAS",context.userData))
+
+@Step("Write Created Project Name In Dialog EditBox")
+def step(context):
+    keywords.Window_Dialog_write_project_path(context.userData["project_name"],"SAVEAS")
+
+@Step("Click Save Button In Project Window")
+def step(context):
+    keywords.prj_window_click_on_save_button()
+>>>>>>> develop
