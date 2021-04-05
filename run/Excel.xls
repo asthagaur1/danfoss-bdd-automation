@@ -1,0 +1,2890 @@
+<?xml version="1.0" ?>
+<?mso-application progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+    <Styles>
+        <Style ss:Name="Normal" ss:ID="Default">
+            <Alignment ss:Vertical="Bottom"/>
+        </Style>
+        <Style ss:ID="bold">
+            <Alignment ss:Vertical="Bottom"/>
+            <Font ss:Bold="1"/>
+        </Style>
+        <Style ss:ID="red">
+            <Font ss:Color="#C00000"/>
+        </Style>
+        <Style ss:ID="green">
+            <Font ss:Color="#00A000"/>
+        </Style>
+        <Style ss:ID="blue">
+            <Font ss:Color="#0000C0"/>
+        </Style>
+        <Style ss:ID="magenta">
+            <Font ss:Color="#FF0090"/>
+        </Style>
+        <Style ss:ID="dateformat">
+            <NumberFormat ss:Format="General Date"/>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="TestCases">
+        <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="170">
+            <Column ss:Width="98.25" ss:AutoFitWidth="1"/>
+            <Column ss:Width="96.75" ss:AutoFitWidth="1"/>
+            <Column ss:Width="45.75" ss:AutoFitWidth="1"/>
+            <Column ss:Width="596.25" ss:AutoFitWidth="1"/>
+            <Column ss:Width="419.25" ss:AutoFitWidth="1"/>
+            <Column ss:Width="98.25" ss:AutoFitWidth="1"/>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">START</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:04</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start 'suite_KoolProg'</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test 'suite_KoolProg' started</Data>
+                </Cell>
+            </Row>
+            <Row/>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">START_TEST_CASE</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:04</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start 'tst_KoolProg_main_window'</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Test 'tst_KoolProg_main_window' started</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">tst_KoolProg_main_window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:08</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:7</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Feature</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open Koolprog and check all window and it's contents.</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:08</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and check page main page contents</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:16</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Had Opened</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:76</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:16</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Had Opened</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:17</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg Main Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:17</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg Main Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then KoolProg should contain Main Window Elements</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="green">
+                    <Data ss:Type="String">PASS</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:65</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Comparison</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">' KoolProg-Version no. 3.5.28.19938' and ' KoolProg-Version no. 3.5.28.19938' are equal</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\KoolProgLib\KoolProg.py:32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">check_koolprog_version is passed</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"> KoolProg-Version no. 3.5.28.19938</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then KoolProg should contain Main Window Elements</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and check page main page contents</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:20</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and check New Project window objects.</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:19</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:19</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:24</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then KoolProg Should Have Controller Informations</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:25</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ETC1Hx</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:24</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then KoolProg Should Have Controller Informations</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:20</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and check New Project window objects.</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H1 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:35</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:29</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:35</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:29</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H1' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:41</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ETC1Hx</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:42</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H1' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:42</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H1' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H1' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H1 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:36</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H2 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:51</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:38</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:51</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:38</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:40</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H2' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:57</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ETC1Hx</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:58</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:40</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H2' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:50:58</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:41</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H2' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:41</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H2' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:36</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H2 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H3 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:07</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:47</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:07</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:47</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:49</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H3' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:13</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ETC1Hx</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:49</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'ETC1H3' from family 'ETC1Hx'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H3' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'ETC1H3' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant ETC1H3 from family of ETC1Hx and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:53</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 11 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:57</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_11' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:29</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:57</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_11' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:30</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:58</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_11' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:58</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_11' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:53</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 11 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:61</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 21 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:63</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:63</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:64</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:64</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:65</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_21' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:65</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_21' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:66</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_21' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:66</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_21' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:61</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 21 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:50</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:69</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 12 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:71</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:55</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:59</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:71</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:59</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:72</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:59</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:72</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:51:59</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:73</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_12' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:01</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:73</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_12' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:74</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_12' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:06</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:74</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_12' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:06</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:69</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 12 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:06</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:77</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 22 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:79</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:11</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:15</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:79</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:15</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:15</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:15</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:81</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_22' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:17</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:81</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETc_22' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:82</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_22' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:82</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETc_22' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:77</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETc 22 from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETa 2W from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:87</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:87</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:88</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:88</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:31</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:89</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETa_2W' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:33</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:89</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And Select Controller Variant 'EETa_2W' from family 'EET'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:90</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETa_2W' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:38</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:90</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify The Controller 'EETa_2W' Should Have Description ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:38</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:85</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler variant EETa 2W from family of EET and verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:38</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:93</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:95</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:43</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:80</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Opening koolprog application</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:47</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:95</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Given KoolProg Opened With New Project Window</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:47</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:96</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:96</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">When KoolProg New Project Window Is Visible</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:97</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And User Is Given With A Table Of Controller List</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:97</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">And User Is Given With A Table Of Controller List</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:123</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Start Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify That Each Controller Should Have Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:48</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ETC1H1' from family 'ETC1Hx' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:49</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ETC1Hx</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:53</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ETC1H2' from family 'ETC1Hx' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:52:57</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ETC1H3' from family 'ETC1Hx' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:01</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETc 11' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:02</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EET</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:05</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETc 21' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:10</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETc 12' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETc 22' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETa 2W' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:22</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EETa 3W' from family 'EET' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:27</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC111A' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:28</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ERC11x</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:32</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC112C' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:36</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC112D' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:41</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC112D VSC' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:46</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC113C' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:51</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC113D' from family 'ERC11x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:56</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC211' from family 'ERC21x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:53:58</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is ERC21x</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:01</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC213' from family 'ERC21x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:06</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'ERC214' from family 'ERC21x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:12</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EKE 1A' from family 'EKE1x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:14</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\SourceCode\lib\winappLib\winappLib.py:168</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Expander name in KoolProg is EKE1x</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:18</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EKE 1B' from family 'EKE1x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:23</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'EKE 1C' from family 'EKE1x' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:29</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'AK-CC55 Compact' from family 'AK-CC55' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:34</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'AK-CC55 Single Coil' from family 'AK-CC55' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:39</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:\gitworkspace\KoolProg-SourceCode\KoolProg-Maintenance\KoolProg_Phase_3.5\KoolProg\Automation\suites\suite_KoolProg\shared\steps\steps.py:166</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Verify That Controller 'AK-CC55 Multi Coil' from family 'AK-CC55' Should Have            Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:123</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Step</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Then Verify That Each Controller Should Have Its Own Description ProductImage And Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:93</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Scenario</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open KoolProg and Select Controler verify that have dtescription ProductImage and Wiring Diagram</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">LOG</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">C:/gitworkspace/KoolProg-SourceCode/KoolProg-Maintenance/KoolProg_Phase_3.5/KoolProg/Automation/suites/suite_KoolProg/tst_KoolProg_main_window/test.feature:7</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End Feature</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">Open Koolprog and check all window and it's contents.</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">END_TEST_CASE</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End 'tst_KoolProg_main_window'</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End of test 'tst_KoolProg_main_window'</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="blue">
+                    <Data ss:Type="String">END</Data>
+                </Cell>
+                <Cell ss:StyleID="dateformat">
+                    <Data ss:Type="DateTime">2020-01-08T09:54:45</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String"></Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End 'suite_KoolProg'</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="String">End of test 'suite_KoolProg'</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+    <Worksheet ss:Name="Summary">
+        <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="9">
+            <Column ss:Width="132.75"/>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Tests</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Fails</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Passes</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Expected_fails</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Unexpected_passes</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Testcases</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">1</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Errors</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Fatals</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+            <Row>
+                <Cell ss:StyleID="bold">
+                    <Data ss:Type="String">Warnings</Data>
+                </Cell>
+                <Cell>
+                    <Data ss:Type="Number">0</Data>
+                </Cell>
+            </Row>
+        </Table>
+    </Worksheet>
+</Workbook>
