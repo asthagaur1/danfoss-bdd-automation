@@ -1,0 +1,8 @@
+Faker      
+ImageHash  
+lxml       
+Pillow     
+pylint     
+pyserial   
+python-docx
+xlrd  
