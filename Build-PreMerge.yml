@@ -1,0 +1,44 @@
+trigger:
+- develop
+
+name: $(Build.SourceBranchName)-$(Build.BuildID)
+
+variables:
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+pool:
+  name: 'KOOLPROGCICD'
+
+steps:
+#- task: CmdLine@2
+#  displayName: 'Python version'
+#  inputs:
+#    script: 'python --version'
+
+#- task: CmdLine@2
+#  displayName: 'Code Analyser'
+#  inputs:
+#   script: 'pylint $(Build.SourcesDirectory)/SourceCode/executionLayer/Global_scripts'
+
+- task: CopyFiles@2
+  displayName: 'Copy files'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/'
+    Contents: '**'
+    TargetFolder: '$(Build.BinariesDirectory)/'
+    CleanTargetFolder: true
+    OverWrite: true
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.BinariesDirectory)'
+    includeRootFolder: false
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    artifact: 'KoolProg_Test_Automation'
+    publishLocation: 'pipeline'
